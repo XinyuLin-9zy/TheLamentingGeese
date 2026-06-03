@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 274a6a8c1ad307b48bbf10cfa717ec3d
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/se/se_\u6C34\u4E2D\u6323\u624E.asset"
+  assetBundleVariant: 
