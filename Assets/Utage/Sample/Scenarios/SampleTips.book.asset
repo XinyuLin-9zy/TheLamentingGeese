@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9856eecfcd6b8df42ac2ebd73cc36dff, type: 3}
+  m_Name: SampleTips.book
+  m_EditorClassIdentifier: 
+  importVersion: 0
+  importGridList: []
+  gridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - ID
+      - SystemSave
+      - Opened
+      - Read
+      - ImageFilePath
+      - Option
+      - OpenFlag
+      - Title
+      - Text
+      - TitleEnglish
+      - TextEnglish
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Tips0
+      - 
+      - TRUE
+      - TRUE
+      - Texture/Thumbnail/syuugou.png
+      - 
+      - 
+      - "Tips0\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8Tips0\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips0\u3000Title"
+      - "Tips0\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Tips1
+      - 
+      - TRUE
+      - 
+      - 
+      - 
+      - 
+      - "Tips1\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips1\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips1\u3000Title"
+      - "Tips1\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Tips2
+      - FALSE
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips2\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips2\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips2\u3000Title"
+      - "Tips2\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - Tips3
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips3\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips3\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips3\u3000Title"
+      - "Tips3\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - Tips4
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips4\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips4\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips4\u3000Title"
+      - "Tips4\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - Tips5
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips5\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips5\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips5\u3000Title"
+      - "Tips5\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - Tips6
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips6\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips6\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips6\u3000Title"
+      - "Tips6\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - Tips7
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips7\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips7\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips7\u3000Title"
+      - "Tips7\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - Tips8
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips8\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips8\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips8\u3000Title"
+      - "Tips8\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - Tips9
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "Tips9\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips9\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips9\u3000Title"
+      - "Tips9\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - Tips10
+      - 
+      - 
+      - 
+      - 
+      - 
+      - flag
+      - "Tips10\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips10\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips10\u3000Title"
+      - "Tips10\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - Tips11
+      - 
+      - TRUE
+      - TRUE
+      - Texture/Thumbnail/syuugou.png
+      - HideDetail
+      - 
+      - "Tips11\u306E\u30BF\u30A4\u30C8\u30EB"
+      - "Tips11\u306E\u30C6\u30AD\u30B9\u30C8"
+      - "Tips11\u3000Title"
+      - "Tips11\u3000Text"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/Sample/Scenarios/SampleTips.xls:Tips
+    type: 1
+    textLength: 910
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 4548aea015b32184f8807d4026388e32,
+      type: 3}

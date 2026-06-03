@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e15421ebe216942b2013a5bacd1bef, type: 3}
+  m_Name: Avatar
+  m_EditorClassIdentifier: 
+  categories:
+  - name: HairBack
+    sortOrder: 0
+    tag: hair
+    sprites:
+    - {fileID: 21300000, guid: 86a293499feddea4caeaa6529dca237a, type: 3}
+    - {fileID: 21300000, guid: 0a5861de52b725c42870228c73664813, type: 3}
+    - {fileID: 21300000, guid: 0dda18431f4c00a409cfd50727fd378e, type: 3}
+  - name: Body
+    sortOrder: 1
+    tag: body
+    sprites:
+    - {fileID: 21300000, guid: 582849da64f81da4bb37e724f0b0e35f, type: 3}
+    - {fileID: 21300000, guid: 7b52d58a4f60074479f9dff9893739e1, type: 3}
+  - name: HairMiddle
+    sortOrder: 2
+    tag: hair
+    sprites:
+    - {fileID: 21300000, guid: f509b935aafd5e640b6de08a9891f0ea, type: 3}
+  - name: Head
+    sortOrder: 3
+    tag: head
+    sprites:
+    - {fileID: 21300000, guid: cddf68d77ec15554c9bfd58f7e5f3c33, type: 3}
+  - name: Mouth
+    sortOrder: 4
+    tag: lip
+    sprites:
+    - {fileID: 21300000, guid: 5b5cb514dda678949a0259f1e8fa13bc, type: 3}
+    - {fileID: 21300000, guid: 1d29f4899c1accb438885cce3805a5db, type: 3}
+    - {fileID: 21300000, guid: c78ac340bd47e1d42bb9e594cc0b31a0, type: 3}
+    - {fileID: 21300000, guid: d245cf50fdd3ca848aa0df2d8e2889a8, type: 3}
+    - {fileID: 21300000, guid: 53c745a76236ff944a4a4186c0ee5d1a, type: 3}
+    - {fileID: 21300000, guid: d1fec697faa6abc4a8ba5149b962b3f4, type: 3}
+    - {fileID: 21300000, guid: 8843878d0d0e38e41b61d32bcde56264, type: 3}
+    - {fileID: 21300000, guid: 9b2e36adacf9d564e85e7c7fdc470948, type: 3}
+    - {fileID: 21300000, guid: 79813d2b3200f2f48ac49b079fbe7e0b, type: 3}
+    - {fileID: 21300000, guid: 3d5fe0db83eaf6d40aa70da09b5e1e6f, type: 3}
+    - {fileID: 21300000, guid: 087769c87e860c347849f1acfb4607e3, type: 3}
+    - {fileID: 21300000, guid: 499242488247ec04ea68952333d5ea8a, type: 3}
+  - name: HairFront
+    sortOrder: 5
+    tag: hair
+    sprites:
+    - {fileID: 21300000, guid: f79f858f121590a43821a4fc86e88d2e, type: 3}
+    - {fileID: 21300000, guid: cfd0997e10db0c14eb43a8451a3eea8d, type: 3}
+    - {fileID: 21300000, guid: de20848780c9cba469ba2ca546395546, type: 3}
+  - name: Eye
+    sortOrder: 6
+    tag: eye
+    sprites:
+    - {fileID: 21300000, guid: 4c90b877cc2e4f942aea16c24ac88e85, type: 3}
+    - {fileID: 21300000, guid: 301860a08298a6640bf58499d5554bb0, type: 3}
+    - {fileID: 21300000, guid: d723870e4ecec92468c9461456648e83, type: 3}
+    - {fileID: 21300000, guid: 24c3cc99f452879419f658048021bd07, type: 3}
+    - {fileID: 21300000, guid: 3401579f61b7ca141aa0a164ec037249, type: 3}
+    - {fileID: 21300000, guid: 1864057024ba3b741a8111bdfbece337, type: 3}
+    - {fileID: 21300000, guid: e431eb1e41d7ce142b4f3caf4e100fc0, type: 3}
+    - {fileID: 21300000, guid: b64e92748ee106a46935852d8db6dfa1, type: 3}
+    - {fileID: 21300000, guid: 2f724dbf3f1ffbd409b8880a1efb3506, type: 3}
+    - {fileID: 21300000, guid: 637f63cfad8a77a40bd872f7818d4d5a, type: 3}
+  - name: EyeBrows
+    sortOrder: 7
+    tag: eye
+    sprites:
+    - {fileID: 21300000, guid: af9298d90557c7f47b0bf829bb6ab63f, type: 3}
+    - {fileID: 21300000, guid: 7579287fa44939044a8f272018e3f2cf, type: 3}
+    - {fileID: 21300000, guid: d0e154039555db04c97de11e10e1eb25, type: 3}
+    - {fileID: 21300000, guid: 06d12ae38c1da4548b01d89bd3768c54, type: 3}
+  - name: Accessory
+    sortOrder: 8
+    tag: accessory
+    sprites:
+    - {fileID: 21300000, guid: 3da7b4f40a59dee478739b0d95a67f7a, type: 3}
+    - {fileID: 21300000, guid: 55be2285a9cf64a4cbedbf87266d49ef, type: 3}
+  tagList:
+  - body
+  - face
+  - eye
+  - lip
+  - hair
+  - accessory
+  - head
+  optionTag: accessory
+  size: {x: 1025, y: 1200}
+  dataList:
+    list:
+    - folder: {fileID: 102900000, guid: 5b5727dfdd577124b865ca92f8b07ef4, type: 3}
+      tag: hair
+    - folder: {fileID: 102900000, guid: eeabd0796880c054493ff2f6644e18da, type: 3}
+      tag: body
+    - folder: {fileID: 102900000, guid: e0717bd7aa915304da2d236ffd1e367e, type: 3}
+      tag: hair
+    - folder: {fileID: 102900000, guid: dc9d9617daf258540a7edf87a6a6163a, type: 3}
+      tag: head
+    - folder: {fileID: 102900000, guid: d1cf20b36e03f474283a8678c4781b79, type: 3}
+      tag: lip
+    - folder: {fileID: 102900000, guid: 633f1ad0ef087fa478384a242808df85, type: 3}
+      tag: hair
+    - folder: {fileID: 102900000, guid: 35b596fbb2b4aad4eac9bc775bce8af3, type: 3}
+      tag: eye
+    - folder: {fileID: 102900000, guid: 2f1932ac536d90a4a84e31749c4bff7e, type: 3}
+      tag: eye
+    - folder: {fileID: 102900000, guid: 0a29d57b673bc9c469135991fa757ce5, type: 3}
+      tag: accessory
+  reimportResourcesButton: 
+  applyButton: 
+  previewPattern:
+    avatarPatternDataList:
+    - tag: hair
+      patternName: LongHair
+    - tag: body
+      patternName: Blouse
+    - tag: head
+      patternName: Normal
+    - tag: lip
+      patternName: Anger
+    - tag: eye
+      patternName: Anger
+    - tag: accessory
+      patternName: 
+    optionPatternNameList:
+    - glasses
+    - ribbon

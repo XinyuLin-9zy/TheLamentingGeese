@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: Sample.project
+  m_EditorClassIdentifier: 
+  chapterDataList:
+  - chapterName: Boot
+    scenarioDir: {fileID: 102900000, guid: c1f3d35270cf35e43b30aea6d724201e, type: 3}
+    excelList: []
+  scenarios: {fileID: 11400000, guid: 277f7a7c1e0a19f40806ec85570d6c01, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings:
+  - {fileID: 11400000, guid: cbab666316febd44895eea744623ae5c, type: 2}
+  - {fileID: 11400000, guid: 5c596276ef6117b4f9368230acb7f602, type: 2}
+  resourceDir: {fileID: 102900000, guid: 6b5e719aeb6c2b54e88c84f296afc2ee, type: 3}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 3c2938de4ce66904ebb03b8d8ba32153,
+    type: 2}
+  customImportSpriteFolders:
+  - {fileID: 102900000, guid: ca2390131fefc1d4b90a5c710c85df20, type: 3}
+  - {fileID: 102900000, guid: 66ddef1af53d10e4b8f4b1e20054feb4, type: 3}
+  - {fileID: 102900000, guid: 8aca336b23ff94c40ad9d4da374674c5, type: 3}
+  - {fileID: 102900000, guid: f4658cc5c0443a84ba8c1f68c1022258, type: 3}
+  - {fileID: 102900000, guid: 7d7f7866276b3c548aa6ae2e0ba03ce5, type: 3}
+  customImportAudioFolders:
+  - {fileID: 102900000, guid: ca7f4a774be4567498fd5ab0602a4027, type: 3}
+  - {fileID: 102900000, guid: 73fa21af5c4def844856758dec6a5584, type: 3}
+  - {fileID: 102900000, guid: 364e8f5daa76cc540919d78addfbfc50, type: 3}
+  - {fileID: 102900000, guid: b60eaaa07c21cb441a9f5b8847876406, type: 3}
+  quickImportType: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  autoImportType: 1
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500
