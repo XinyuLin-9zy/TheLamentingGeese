@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5004051be513432c86b87ebfcf0cbd95, type: 3}
+  m_Name: Asset Only Default Settings
+  m_EditorClassIdentifier: 
+  templateFolder: {fileID: 102900000, guid: 4720e8b459506714884e0e93f571f34c, type: 3}
+  fontSettings:
+    languageManager: {fileID: 11400000, guid: 3a8e2205f6f7ce54084ec620f41abdd9, type: 2}
+    font: {fileID: 11400000, guid: ff91fdd183fd31f4a80a2e28b409b16b, type: 2}
+    fontFallbackEditor: {fileID: 11400000, guid: 8ca23c563c1318e46af3172e39f3812c,
+      type: 2}
+    fontFallbackRuntime: {fileID: 11400000, guid: 40c0af81d9b0fb44b818f059c35dfb29,
+      type: 2}

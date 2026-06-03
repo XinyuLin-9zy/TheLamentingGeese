@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: LegacyTemplate.project
+  m_EditorClassIdentifier: 
+  chapterDataList:
+  - chapterName: Boot
+    scenarioDir: {fileID: 102900000, guid: ffeb7204946c8024ab6d08f1aab95bb9, type: 3}
+    excelList: []
+  scenarios: {fileID: 11400000, guid: 82e55b63ed320cd40bca2ab2bdea6baa, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings:
+  - {fileID: 11400000, guid: ec5c0d6a9e8e4c94fb6655a1577ef834, type: 2}
+  - {fileID: 11400000, guid: cfe19d29768d8934db9c87c081ffad17, type: 2}
+  characterValidatorSettings:
+    characterFiles: []
+  resourceDir: {fileID: 0}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 9a03abd17772a54409a373cbc85ca7a2,
+    type: 2}
+  customImportSpriteFolders:
+  - {fileID: 102900000, guid: 52aa863e3b41aa249a1af469c8156d46, type: 3}
+  - {fileID: 102900000, guid: ba31ac260e82d6c43af8cf4b51f2488e, type: 3}
+  - {fileID: 102900000, guid: 91f88a8be0dd6f24eb1fc571a044861d, type: 3}
+  - {fileID: 102900000, guid: 4396a42b84788834b9c816e1bb63a964, type: 3}
+  - {fileID: 102900000, guid: 2323a73919c504e4c81dd57a80749ff1, type: 3}
+  customImportAudioFolders:
+  - {fileID: 102900000, guid: 885806dd20533864eaac609a0fcebb53, type: 3}
+  - {fileID: 102900000, guid: 265d1304abce6844e99bb0ec9a48fdad, type: 3}
+  - {fileID: 102900000, guid: 38e78144de2f8d44b8159870d3ee8301, type: 3}
+  - {fileID: 102900000, guid: 98240c6c7c3a4564eaad8dfaaf98542d, type: 3}
+  quickImportType: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  autoImportType: 1
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500
