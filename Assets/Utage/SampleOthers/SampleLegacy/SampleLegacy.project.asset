@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: SampleLegacy.project
+  m_EditorClassIdentifier: 
+  chapterDataList:
+  - chapterName: Boot
+    scenarioDir: {fileID: 102900000, guid: 4d1c86044e4dc7f48b8819164e7741ba, type: 3}
+    excelList: []
+  scenarios: {fileID: 11400000, guid: b5a107ee46027b04fba2a763c4e4cec8, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings: []
+  resourceDir: {fileID: 102900000, guid: 6b5e719aeb6c2b54e88c84f296afc2ee, type: 3}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 5578a7c1d20463443b1a0369e2099634,
+    type: 2}
+  customImportSpriteFolders: []
+  customImportAudioFolders: []
+  quickImportType: 3
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 1
+  autoImportType: 1
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500

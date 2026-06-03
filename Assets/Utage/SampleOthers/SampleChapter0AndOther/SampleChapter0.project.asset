@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: SampleChapter0.project
+  m_EditorClassIdentifier: 
+  chapterDataList:
+  - chapterName: SampleChapter0
+    scenarioDir: {fileID: 102900000, guid: e78b4507ab20e5244a3867bc221b694a, type: 3}
+    excelList: []
+  - chapterName: SampleChapter1
+    scenarioDir: {fileID: 102900000, guid: 38eeee3c236e5eb4683d80a3fe903752, type: 3}
+    excelList: []
+  - chapterName: SampleChapter2
+    scenarioDir: {fileID: 102900000, guid: 652c81c6f40f87349a7b27f6af270de3, type: 3}
+    excelList: []
+  scenarios: {fileID: 11400000, guid: a3c787149ae6952449f6cd52c2bc194b, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings: []
+  resourceDir: {fileID: 0}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 3c2938de4ce66904ebb03b8d8ba32153,
+    type: 2}
+  customImportSpriteFolders:
+  - {fileID: 102900000, guid: 8f38beb637627f14ebb37287dec2ac64, type: 3}
+  - {fileID: 102900000, guid: 4e9e57c4546737c4cacc45a055740ff7, type: 3}
+  - {fileID: 102900000, guid: 98ee7bd51c14228469007f277a891592, type: 3}
+  - {fileID: 102900000, guid: 143ed5ec1143e74468db4255c4bd0398, type: 3}
+  - {fileID: 102900000, guid: 0b3aae13a9e901d458805e0e3838c358, type: 3}
+  customImportAudioFolders:
+  - {fileID: 102900000, guid: 5db374a1de8e0a24e900ed2f1146c2b4, type: 3}
+  - {fileID: 102900000, guid: cc4f46b9082f9204ba5f0b1ddf75615e, type: 3}
+  - {fileID: 102900000, guid: ee55ff21253156d4f9bb5065d6e9ec6b, type: 3}
+  - {fileID: 102900000, guid: 919f8a874a9249c4cba4a3d15a1149b9, type: 3}
+  quickImportType: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  autoImportType: 0
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500

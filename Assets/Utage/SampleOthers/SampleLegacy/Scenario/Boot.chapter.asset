@@ -1,0 +1,9748 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e889193e22a9747940ed2cfe192e6e, type: 3}
+  m_Name: Boot.chapter
+  m_EditorClassIdentifier: 
+  chapterName: Boot
+  dataList:
+  - {fileID: 11400000, guid: 665534c2af62bc64080a7b60c5e97238, type: 2}
+  - {fileID: 11400000, guid: 3ae9ce1c7fc3a734fa796c2836d5ff0e, type: 2}
+  - {fileID: 11400000, guid: 1e4d15f6452d01645896caa3b5ffa9a6, type: 2}
+  settingList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - CharacterName
+      - NameText
+      - Pattern
+      - X
+      - Y
+      - Z
+      - Pivot
+      - Scale
+      - Conditional
+      - FileName
+      - SubFileName
+      - FileType
+      - AnimationState
+      - Animation
+      - RenderTexture
+      - RenderRect
+      - RenderTextureScale
+      - EyeBlink
+      - LipSynch
+      - Icon
+      - IconSubFileName
+      - IconRect
+      - hair
+      - body
+      - head
+      - lip
+      - eye
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u3046\u305F\u3053"
+      - "\u3046\u305F\u3053"
+      - "\u901A\u5E38"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Utako/utako.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - 
+      - 
+      - "\u7B11\u3044"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Utako/utako_smile.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - 
+      - "\u305F\u3081\u606F"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Utako/utako_tameiki.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - 
+      - 
+      - "\u7167\u308C"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Utako/utako_tere.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - "\u30E9\u30F3"
+      - "\u30E9\u30F3"
+      - "\u901A\u5E38"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Run/run.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - "\u30D3\u30C3\u30AF\u30EA"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Run/run_bikkuri.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - "\u30C9\u30E4\u9854"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Run/run_doya.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - 
+      - "\u6012"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Run/run_oko.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - 
+      - 
+      - "\u7167\u308C"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Run/run_tere.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - "\u30ED\u30DC\u5B50"
+      - <param=roboko_name>
+      - "\u901A\u5E38"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Robo/robo.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - 
+      - 
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - flag_roboko_pose
+      - Robo/robo_scan.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - 
+      - 
+      - "\u30DD\u30FC\u30BA"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Robo/robo_pose.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - 
+      - 
+      - "\u30B9\u30AD\u30E3\u30F3"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Robo/robo_scan.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - 
+      - 
+      - "\u7167\u308C\u30FB\u4F0F\u3057\u76EE"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Robo/robo_tere_huse.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - 
+      - 
+      - "\u7167\u308C\u30FB\u76EE\u9038\u3089\u3057"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 
+      - 
+      - Robo/robo_tere_sorasi.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - 
+      - 
+      - "\u5C0F"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .5
+      - 
+      - Robo/robo.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - 
+      - 
+      - "\u5927"
+      - 
+      - -50
+      - 
+      - Bottom
+      - 1.5
+      - 
+      - Robo/robo.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - "\u4E3B\u4EBA\u516C"
+      - <param=player_name>
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - "\u3053\u306F\u304F"
+      - "\u3053\u306F\u304F"
+      - "\u666E"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_01.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - 
+      - "\u5F97"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_02.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - 
+      - 
+      - "\u6012"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_03.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - 
+      - "\u9A5A"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_04.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon1.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - 
+      - 
+      - "\u559C"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_05.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon2.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - 
+      - "\u60B2"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_06.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon3.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - 
+      - 
+      - "\u5236\u670D"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku/portrait_kohaku_B_01.png
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - "\u30C0\u30A4\u30B7\u30F3\u30B0"
+      - 
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku.asset
+      - portrait_kohaku_01
+      - Dicing
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30C0\u30A4\u30B7\u30F3\u30B0\u76EE\u30D1\u30C1"
+      - "\u30C0\u30A4\u30B7\u30F3\u30B0\u53E3\u30D1\u30AF"
+      - Kohaku.asset
+      - Icon/icon2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku.asset
+      - portrait_kohaku_03
+      - Dicing
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F33"
+      - 
+      - -50
+      - 
+      - Bottom
+      - .4
+      - 
+      - Kohaku.asset
+      - portrait_kohaku_B_01
+      - Dicing
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 440, 140, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - "\u30AD\u30FC\u30D5\u30EC\u30FC\u30E0\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3A"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Bottom
+      - .6
+      - 
+      - UnityChanAnimation-A.asset
+      - A_00000
+      - Dicing
+      - 
+      - AnimationA
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - "\u30AD\u30FC\u30D5\u30EC\u30FC\u30E0\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3B"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Bottom
+      - .6
+      - 
+      - UnityChanAnimation-B.asset
+      - B_00000
+      - Dicing
+      - 
+      - AnimationB
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - "\u30B3\u30B3"
+      - 
+      - "\u5236\u670D-\u30ED\u30F3\u30B0-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - LongHair
+      - Uniform
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30ED\u30F3\u30B0-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - LongHair
+      - Uniform
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30ED\u30F3\u30B0-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - LongHair
+      - Uniform
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30ED\u30F3\u30B0-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - LongHair
+      - Uniform
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30DD\u30CB\u30FC-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Ponytail
+      - Uniform
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30DD\u30CB\u30FC-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Ponytail
+      - Uniform
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30DD\u30CB\u30FC-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Ponytail
+      - Uniform
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30DD\u30CB\u30FC-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Ponytail
+      - Uniform
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30B7\u30E7\u30FC\u30C8-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Short
+      - Uniform
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30B7\u30E7\u30FC\u30C8-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Short
+      - Uniform
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30B7\u30E7\u30FC\u30C8-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Short
+      - Uniform
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - 
+      - 
+      - "\u5236\u670D-\u30B7\u30E7\u30FC\u30C8-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 
+      - Short
+      - Uniform
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30ED\u30F3\u30B0-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - LongHair
+      - Blouse
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30ED\u30F3\u30B0-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - LongHair
+      - Blouse
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30ED\u30F3\u30B0-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - LongHair
+      - Blouse
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30ED\u30F3\u30B0-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - LongHair
+      - Blouse
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30DD\u30CB\u30FC-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Ponytail
+      - Blouse
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30DD\u30CB\u30FC-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Ponytail
+      - Blouse
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30DD\u30CB\u30FC-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Ponytail
+      - Blouse
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30DD\u30CB\u30FC-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Ponytail
+      - Blouse
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30B7\u30E7\u30FC\u30C8-\u901A\u5E38"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Short
+      - Blouse
+      - Normal
+      - Normal
+      - Normal
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30B7\u30E7\u30FC\u30C8-\u6012\u308A"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Short
+      - Blouse
+      - Normal
+      - Anger
+      - Anger
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30B7\u30E7\u30FC\u30C8-\u7167\u308C"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Short
+      - Blouse
+      - Normal
+      - Shy
+      - Shy
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - 
+      - 
+      - "\u79C1\u670D-\u30B7\u30E7\u30FC\u30C8-\u7B11\u3044"
+      - 
+      - 
+      - 
+      - Bottom
+      - .5
+      - 
+      - Avatar.asset
+      - 
+      - Avatar
+      - 
+      - 
+      - Image
+      - 0,0,1025,1200
+      - 
+      - "\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - "\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - 
+      - 
+      - 350, 120, 300, 300
+      - Short
+      - Blouse
+      - Normal
+      - Smile
+      - Smile
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - "2D\u30D7\u30EC\u30CF\u30D6"
+      - 
+      - 
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - Idle
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - Move Right
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon1.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - 
+      - 
+      - 
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - language=="English"
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - Move Right
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon2.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - "2D\u30D7\u30EC\u30CF\u30D6RT"
+      - 
+      - 
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - 
+      - 
+      - DefaultShader
+      - 0,0,800,600
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - Idle
+      - 
+      - DefaultShader
+      - 0,0,800,600
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - 
+      - 
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - 0
+      - 350
+      - 
+      - 
+      - 1.5
+      - 
+      - 2DUnitychan.prefab
+      - 
+      - 2DPrefab
+      - Move Right
+      - 
+      - DefaultShader
+      - 0,0,800,600
+      - 
+      - 
+      - 
+      - Kohaku/Icon/icon1.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings:
+      - "3D\u30D7\u30EC\u30CF\u30D6"
+      - 
+      - 
+      - 0
+      - 50
+      - 
+      - 
+      - 5
+      - 
+      - SD_unitychan_humanoid.prefab
+      - 
+      - 3DPrefab
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - "3D\u30D7\u30EC\u30CF\u30D6RT"
+      - 
+      - 
+      - 
+      - 350
+      - 
+      - 
+      - 5
+      - 
+      - SD_unitychan_humanoid.prefab
+      - 
+      - 3DPrefab
+      - 
+      - 
+      - DefaultShader
+      - 0,300,800,600
+      - 2
+      - 
+      - 
+      - 
+      - 
+      - 600, 200, 400, 400
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Character
+    type: 1
+    textLength: 4494
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - X
+      - Y
+      - Z
+      - Pivot
+      - Scale
+      - Conditional
+      - FileName
+      - SubFileName
+      - FileType
+      - RenderTexture
+      - RenderRect
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F\u305D\u306E1"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - TutorialBg1.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u80CC\u666F\u305D\u306E2"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - TutorialBg2.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "\u96C6\u5408"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Other.asset
+      - syuugou
+      - Dicing
+      - 
+      - 
+      - syuugou
+      - "\u30ED\u30DC\u5B50"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - "\u30ED\u30DC\u7740\u66FF\u3048"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - Roboko1.asset
+      - roboko_kigae
+      - Dicing
+      - 
+      - 
+      - roboko_kigae
+      - "\u30ED\u30DC\u5B50"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - "\u30ED\u30DC\u7740\u66FF\u30482"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Roboko1.asset
+      - roboko_kigae2
+      - Dicing
+      - 
+      - 
+      - roboko_kigae
+      - "\u30ED\u30DC\u5B50"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - "\u30DC\u30FC\u30EB"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - ball.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - "\u30B7\u30CA\u30EA\u30AA\u30C7\u30FC\u30BF\u306E\u30B9\u30AF\u30B7\u30E7"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - ScenarioDataScreen.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB1-1"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - 01/CGSample01_01
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample01.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB1-2"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - 01/CGSample01_02
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample01.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB1-3"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - 01/CGSample01_03
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample01.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB1-4"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - 01/CGSample01_04
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample01.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB1-5"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - 01/CGSample01_05
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample01.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB2"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample02
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample02.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB3"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample03
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample03.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB4"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample04
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample04.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB5"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample05
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample05.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB6"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample06
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample06.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB7"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample07
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample07.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB8"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample08
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample08.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB9"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample09
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample09.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB10"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample10
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample10.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB11"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample11
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample11.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB12"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample12
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample12.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB13"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample13
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample13.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB14"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample14
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample14.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB15"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample15
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample15.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB16"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample16
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample16.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB17"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample17
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample17.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB18"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample18
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample18.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB19"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample19
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample19.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - "CG\u30B5\u30F3\u30D7\u30EB20"
+      - Event
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Sample.asset
+      - CGSample20
+      - Dicing
+      - 
+      - 
+      - Sample/CGSample20.png
+      - "\u305D\u306E\u4ED6"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - "\u30A2\u30EB\u30D5\u30A1\u30D3\u30C7\u30AA\u30B5\u30F3\u30D7\u30EB1"
+      - Sprite
+      - 
+      - 
+      - 
+      - 
+      - 1
+      - 
+      - AlphaMovie.webm
+      - 
+      - Video
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Texture
+    type: 1
+    textLength: 1988
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - FileName
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Rain
+      - Rain
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Snow
+      - Snow
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Sakura
+      - Sakura
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - IntensiveLine
+      - IntensiveLine
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - DustFall
+      - DustFall
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Particle
+    type: 1
+    textLength: 83
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - LayerName
+      - Type
+      - X
+      - Y
+      - Order
+      - LayerMask
+      - ScaleX
+      - ScaleY
+      - FlipX
+      - FlipY
+      - Width
+      - Height
+      - BorderLeft
+      - BorderRight
+      - BorderTop
+      - BorderBottom
+      - Align
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F"
+      - Bg
+      - 0
+      - 0
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u30B9\u30D7\u30E9\u30A4\u30C8"
+      - Sprite
+      - 0
+      - 0
+      - 100
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - Character
+      - 0
+      - -300
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - Character
+      - -250
+      - -300
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - Character
+      - 250
+      - -300
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - "3D\u30AD\u30E3\u30E9"
+      - Character
+      - 0
+      - 0
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - "3D\u30AD\u30E3\u30E9\u53F3"
+      - Character
+      - 250
+      - 0
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - "3D\u30AD\u30E3\u30E9\u5DE6"
+      - Character
+      - -250
+      - 0
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - "UI\u624B\u524D"
+      - Character
+      - 350
+      - -300
+      - 190
+      - UI
+      - .5
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - UI2
+      - Character
+      - -350
+      - -300
+      - 0
+      - UI2
+      - .5
+      - .5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - "\u30AD\u30E3\u30E9\u5DE6\u4E0B\u5BC4\u305B"
+      - Character
+      - 
+      - 
+      - 200
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 400
+      - 600
+      - 0
+      - 
+      - 
+      - 0
+      - BottomLeft
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - "\u30AD\u30E3\u30E9\u53F3\u4E0B\u5BC4\u305B"
+      - Character
+      - 
+      - 
+      - 200
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 400
+      - 600
+      - 
+      - 0
+      - 
+      - 0
+      - BottomRight
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - "\u30AD\u30E3\u30E9\u5DE6\u53F3\u53CD\u8EE2"
+      - Character
+      - 
+      - 
+      - 200
+      - 
+      - 
+      - 
+      - TRUE
+      - 
+      - 400
+      - 600
+      - 0
+      - 
+      - 
+      - 0
+      - BottomLeft
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - "\u30AD\u30E3\u30E9\u4E0A\u4E0B\u53CD\u8EE2"
+      - Character
+      - 
+      - 
+      - 200
+      - 
+      - 
+      - 
+      - 
+      - TRUE
+      - 400
+      - 600
+      - 
+      - 0
+      - 
+      - 0
+      - BottomRight
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - "\u30AD\u30E3\u30D7\u30C1\u30E3\u753B\u50CF\u30EC\u30A4\u30E4\u30FC"
+      - Sprite
+      - 0
+      - 0
+      - 100
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Layer
+    type: 1
+    textLength: 502
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - IntervalMin
+      - IntervalMax
+      - RandomDouble
+      - Tag
+      - Name0
+      - Duration0
+      - Name1
+      - Duration1
+      - Name2
+      - Duration2
+      - Name3
+      - Duration3
+      - Name4
+      - Duration4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "*\u30C0\u30A4\u30B7\u30F3\u30B0\u76EE\u30D1\u30C1"
+      - 2
+      - 6
+      - .2
+      - eye
+      - '*_e1'
+      - .1
+      - '*_e0'
+      - .05
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "*\u30A2\u30D0\u30BF\u30FC\u76EE\u30D1\u30C1"
+      - 2
+      - 6
+      - .2
+      - eye
+      - '*_2'
+      - .06666
+      - '*_3'
+      - .06666
+      - '*_2'
+      - .06666
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:EyeBlink
+    type: 1
+    textLength: 183
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Interval
+      - Tag
+      - ScaleVoiceVolume
+      - Name0
+      - Duration0
+      - Name1
+      - Duration1
+      - Name2
+      - Duration2
+      - Name3
+      - Duration3
+      - Name4
+      - Duration4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "*\u30C0\u30A4\u30B7\u30F3\u30B0\u53E3\u30D1\u30AF"
+      - TextAndVoice
+      - .2
+      - lip
+      - 1
+      - '*_m0'
+      - .2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "*\u30A2\u30D0\u30BF\u30FC\u53E3\u30D1\u30AF"
+      - TextAndVoice
+      - .1
+      - lip
+      - 1
+      - '*_2'
+      - .1
+      - '*_3'
+      - .1
+      - '*_2'
+      - .1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:LipSynch
+    type: 1
+    textLength: 180
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - '*AnimationA'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      - 1.1
+      - 1.2
+      - 1.3
+      - 1.4
+      - 1.5
+      - 1.6
+      - 1.7
+      - 1.8
+      - 1.9
+      - 2
+      - 2.1
+      - 2.2
+      - 2.3
+      - 2.4
+      - 2.5
+      - 2.6
+      - 2.7
+      - 2.8
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Texture
+      - A_00000
+      - A_00001
+      - A_00002
+      - A_00003
+      - A_00004
+      - A_00005
+      - A_00006
+      - A_00007
+      - A_00008
+      - A_00009
+      - A_00009
+      - A_00010
+      - A_00011
+      - A_00012
+      - A_00013
+      - A_00014
+      - A_00015
+      - A_00016
+      - A_00017
+      - A_00018
+      - A_00019
+      - A_00020
+      - A_00021
+      - A_00022
+      - A_00023
+      - A_00024
+      - A_00025
+      - A_00026
+      - A_00027
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - '*AnimationB'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      - 1.1
+      - 1.2
+      - 1.3
+      - 1.4
+      - 1.5
+      - 1.6
+      - 1.7
+      - 1.8
+      - 1.9
+      - 2
+      - 2.1
+      - 2.2
+      - 2.3
+      - 2.4
+      - 2.5
+      - 2.6
+      - 2.7
+      - 2.8
+      - 2.9
+      - 3
+      - 3.1
+      - 3.2
+      - 3.3
+      - 3.4
+      - 3.5
+      - 3.6
+      - 3.7
+      - 3.8
+      - 3.9
+      - 4
+      - 4.1
+      - 4.2
+      - 4.3
+      - 4.4
+      - 4.5
+      - 4.6
+      - 4.7
+      - 4.8
+      - 4.9
+      - 5
+      - 5.1
+      - 5.2
+      - 5.3
+      - 5.4
+      - 5.5
+      - 5.6
+      - 5.7
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - Texture
+      - B_00000
+      - B_00001
+      - B_00002
+      - B_00003
+      - B_00004
+      - B_00005
+      - B_00006
+      - B_00007
+      - B_00008
+      - B_00009
+      - B_00010
+      - B_00011
+      - B_00012
+      - B_00013
+      - B_00014
+      - B_00015
+      - B_00016
+      - B_00017
+      - B_00018
+      - B_00019
+      - B_00020
+      - B_00021
+      - B_00022
+      - B_00023
+      - B_00024
+      - B_00025
+      - B_00026
+      - B_00027
+      - B_00028
+      - B_00029
+      - B_00030
+      - B_00031
+      - B_00032
+      - B_00033
+      - B_00034
+      - B_00035
+      - B_00036
+      - B_00037
+      - B_00038
+      - B_00039
+      - B_00040
+      - B_00041
+      - B_00042
+      - B_00043
+      - B_00044
+      - B_00045
+      - B_00046
+      - B_00047
+      - B_00048
+      - B_00049
+      - B_00050
+      - B_00051
+      - B_00052
+      - B_00053
+      - B_00054
+      - B_00055
+      - B_00056
+      - B_00057
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - '*SampleAnimation'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - Time
+      - 0
+      - .5
+      - 1
+      - 1.5
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - X
+      - 0
+      - 
+      - 0
+      - 0
+      - 100
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - Y
+      - -50
+      - 50
+      - 0
+      - 0
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - Angle
+      - 0
+      - 
+      - 0
+      - 0
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - ScaleX
+      - .2
+      - 1.2
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - ScaleY
+      - .2
+      - 1.2
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - Alpha
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - '*SampleAnimationLoop'
+      - Loop
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - Time
+      - 0
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - Angle
+      - 0
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - '*SampleAnimationPingPong'
+      - PingPong
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - Time
+      - 0
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - Alpha
+      - 0
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - '*SampleAnimationNoneLinear'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - Time
+      - 0
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - X
+      - -300
+      - 300
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - Y
+      - 250
+      - 250
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - '*SampleAnimationLinear'
+      - 
+      - Linear
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - Time
+      - 0
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - X
+      - -300
+      - 300
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - Y
+      - 200
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - '*SampleLayerAnimation'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - Time
+      - 0
+      - .5
+      - 1
+      - 1.5
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - X
+      - 0
+      - 
+      - 0
+      - 0
+      - 3
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - Y
+      - -3
+      - 3
+      - 0
+      - 0
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - Angle
+      - 0
+      - 
+      - 0
+      - 0
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - '*SampleLayerAnimationLoop'
+      - Loop
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - Time
+      - 0
+      - .5
+      - 1
+      - 1.5
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - Angle
+      - 0
+      - 
+      - 0
+      - 0
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - '*FishEyeAnimtionIn'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - Utage.FishEye.strengthX
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1.5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - Utage.FishEye.strengthY
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1.5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - '*FishEyeAnimtionOut'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - Utage.FishEye.strengthX
+      - 1.5
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - Utage.FishEye.strengthY
+      - 1.5
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - '*VortexAnimtionIn'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - Utage.Vortex.angle
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 720
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - '*VortexAnimtionOut'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - Utage.Vortex.angle
+      - 720
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - '*TwirlAnimtionIn'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings:
+      - Utage.Twirl.angle
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 180
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - '*TwirlAnimtionOut'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 78
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 79
+      strings:
+      - Utage.Twirl.angle
+      - 180
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 360
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 80
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 81
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 82
+      strings:
+      - '*MosaicIn'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 83
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 84
+      strings:
+      - Utage.Mosaic.size
+      - 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 16
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 85
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 86
+      strings:
+      - '*MosaicOut'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 87
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 88
+      strings:
+      - Utage.Mosaic.size
+      - 16
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 89
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 90
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 91
+      strings:
+      - '*BlurIn'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 92
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 93
+      strings:
+      - Utage.Blur.blurSize
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 3
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - Utage.Blur.blurIterations
+      - 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - Utage.Blur.downsample
+      - 0
+      - 
+      - 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - '*BlurOut'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - Utage.Blur.blurSize
+      - 3
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - Utage.Blur.blurIterations
+      - 2
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - Utage.Blur.downsample
+      - 1
+      - 
+      - 1
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - '*SampleAnimationPattern'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - Time
+      - 0
+      - 2.5
+      - 3
+      - 3.5
+      - 4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - Pattern
+      - "\u30D1\u30BF\u30FC\u30F33,2"
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - "\u30D1\u30BF\u30FC\u30F33"
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - "\u30D1\u30BF\u30FC\u30F31"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - '*SampleAnimationPatternPrefab'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - Time
+      - 0
+      - 2.5
+      - 3
+      - 3.5
+      - 4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - Pattern
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - "\u30D1\u30BF\u30FC\u30F31"
+      - "\u30D1\u30BF\u30FC\u30F32"
+      - "\u30D1\u30BF\u30FC\u30F31"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - '*SampleColorAnimation'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - Time
+      - 0
+      - .5
+      - 1
+      - 1.5
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - Alpha
+      - 0
+      - 1
+      - 1
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - R
+      - 1
+      - 1
+      - 0
+      - 
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - G
+      - 1
+      - 
+      - 1
+      - 0
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - B
+      - 1
+      - 
+      - 
+      - 1
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - '*ColorFade'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - Utage.ColorFade,color.a
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
+      strings:
+      - Utage.ColorFade,color.r
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 129
+      strings:
+      - Utage.ColorFade,color.g
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 130
+      strings:
+      - Utage.ColorFade,color.b
+      - 0
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 131
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 133
+      debugIndex: 133
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 134
+      debugIndex: 134
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 135
+      debugIndex: 135
+      strings:
+      - '*RuleFade'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 136
+      debugIndex: 136
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 137
+      debugIndex: 137
+      strings:
+      - Utage.UguiTransition.strength
+      - 0
+      - 1
+      - .5
+      - 1
+      - .5
+      - 0
+      - .5
+      - 1
+      - 0
+      - 1
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 138
+      debugIndex: 138
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 139
+      debugIndex: 139
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 140
+      debugIndex: 140
+      strings:
+      - '*FadeInColor'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 141
+      debugIndex: 141
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 142
+      debugIndex: 142
+      strings:
+      - Utage.ColorFade.strength
+      - 1
+      - 
+      - 
+      - .9
+      - 
+      - .8
+      - .7
+      - .5
+      - .2
+      - .1
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 143
+      debugIndex: 143
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 144
+      debugIndex: 144
+      strings:
+      - '*FadeOutColor'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 145
+      debugIndex: 145
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 146
+      debugIndex: 146
+      strings:
+      - Utage.ColorFade.strength
+      - 0
+      - 
+      - 
+      - .1
+      - 
+      - .2
+      - .3
+      - .5
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 147
+      debugIndex: 147
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 148
+      debugIndex: 148
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 149
+      debugIndex: 149
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 150
+      debugIndex: 150
+      strings:
+      - '*FadeInRule'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 151
+      debugIndex: 151
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 152
+      debugIndex: 152
+      strings:
+      - Utage.RuleFade.strength
+      - 1
+      - 
+      - 
+      - .9
+      - 
+      - .8
+      - .7
+      - .5
+      - .2
+      - .1
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 153
+      debugIndex: 153
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 154
+      debugIndex: 154
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 155
+      debugIndex: 155
+      strings:
+      - '*FadeOutRule'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 156
+      debugIndex: 156
+      strings:
+      - Time
+      - 0
+      - .1
+      - .2
+      - .3
+      - .4
+      - .5
+      - .6
+      - .7
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 157
+      debugIndex: 157
+      strings:
+      - Utage.RuleFade.strength
+      - 0
+      - 
+      - 
+      - .1
+      - 
+      - .2
+      - .3
+      - .5
+      - .8
+      - .9
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Animation
+    type: 1
+    textLength: 2723
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - IntroTime
+      - Volume
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u7372\u5F97\u97F3"
+      - 
+      - Se
+      - get.wav
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u7834\u58CA\u97F3"
+      - 
+      - Se
+      - block_break.wav
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "BGM\u305D\u306E1"
+      - "\u30E1\u30A4\u30F3\u30C6\u30FC\u30DE"
+      - Bgm
+      - SampleIntroLoop.wav
+      - 2.976
+      - 
+      - Main theme
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "BGM\u305D\u306E2"
+      - "\u30B9\u30C6\u30FC\u30B8"
+      - Bgm
+      - stage.wav
+      - 
+      - 
+      - Stage
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - "\u74B0\u5883\u97F3\u305D\u306E1"
+      - 
+      - Ambience
+      - start.wav
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - "\u74B0\u5883\u97F3\u305D\u306E2"
+      - 
+      - Ambience
+      - title.wav
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Sound
+    type: 1
+    textLength: 198
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Value
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - language
+      - String
+      - 
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - voice_language
+      - String
+      - 
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - scene_gallery
+      - Bool
+      - FALSE
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - point
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - flag
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - Avatar_glasses
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - unity56OrNewer
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - point_roboko
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - flag_utako
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - flag_run
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - flag_roboko
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - select_utako
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - select_run
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - select_roboko
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - rand
+      - Float
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - rate
+      - Float
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - num_boot
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - game_title
+      - String
+      - "\u5BB4"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - clear_count
+      - Int
+      - 0
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - player_name
+      - String
+      - "\u4E3B\u4EBA\u516C"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - roboko_name
+      - String
+      - "\u30ED\u30DC\u5B50"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - test_name
+      - String
+      - "\u30C6\u30B9\u30C8"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - flag_roboko_pose
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - lv_utako
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - lv_run
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - lv_roboko
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - entity_name
+      - String
+      - "\u3046\u305F\u3053"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - struct_name
+      - String
+      - ParamTbl
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - struct_index
+      - String
+      - hoge
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - struct_value
+      - String
+      - point
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - tes0
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - tes1
+      - Int
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - tes2
+      - Int
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - tes3
+      - Int
+      - 3
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - tes4
+      - Int
+      - 4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - tes5
+      - Int
+      - 5
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - tes6
+      - Int
+      - 6
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - tes7
+      - Int
+      - 7
+      - Const
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - tes8
+      - Int
+      - 8
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - tes9
+      - Int
+      - 9
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - tes10
+      - Int
+      - 10
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - tes11
+      - Int
+      - 11
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - tes12
+      - Int
+      - 12
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - tes13
+      - Int
+      - 13
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - tes14
+      - Int
+      - 14
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - tes15
+      - Int
+      - 15
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - tes16
+      - Int
+      - 16
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - tes17
+      - Int
+      - 17
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - tes18
+      - Int
+      - 18
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - tes19
+      - Int
+      - 19
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - tes20
+      - Int
+      - 20
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - tes21
+      - Int
+      - 21
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - tes22
+      - Int
+      - 22
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - tes23
+      - Int
+      - 23
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - tes24
+      - Int
+      - 24
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - tes25
+      - Int
+      - 25
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - tes26
+      - Int
+      - 26
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - tes27
+      - Int
+      - 27
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - tes28
+      - Int
+      - 28
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - tes29
+      - Int
+      - 29
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - tes30
+      - Int
+      - 30
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - tes31
+      - Int
+      - 31
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - tes32
+      - Int
+      - 32
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - tes33
+      - Int
+      - 33
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - tes34
+      - Int
+      - 34
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - tes35
+      - Int
+      - 35
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - tes36
+      - Int
+      - 36
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - tes37
+      - Int
+      - 37
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - tes38
+      - Int
+      - 38
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - tes39
+      - Int
+      - 39
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - tes40
+      - Int
+      - 40
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - tes41
+      - Int
+      - 41
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - tes42
+      - Int
+      - 42
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - tes43
+      - Int
+      - 43
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings:
+      - tes44
+      - Int
+      - 44
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings:
+      - tes45
+      - Int
+      - 45
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - tes46
+      - Int
+      - 46
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 78
+      strings:
+      - tes47
+      - Int
+      - 47
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 79
+      strings:
+      - tes48
+      - Int
+      - 48
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 80
+      strings:
+      - tes49
+      - Int
+      - 49
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 81
+      strings:
+      - tes50
+      - Int
+      - 50
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 82
+      strings:
+      - tes51
+      - Int
+      - 51
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 83
+      strings:
+      - tes52
+      - Int
+      - 52
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 84
+      strings:
+      - tes53
+      - Int
+      - 53
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 85
+      strings:
+      - tes54
+      - Int
+      - 54
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 86
+      strings:
+      - tes55
+      - Int
+      - 55
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 87
+      strings:
+      - tes56
+      - Int
+      - 56
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 88
+      strings:
+      - tes57
+      - Int
+      - 57
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 89
+      strings:
+      - tes58
+      - Int
+      - 58
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 90
+      strings:
+      - tes59
+      - Int
+      - 59
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 91
+      strings:
+      - tes60
+      - Int
+      - 60
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 92
+      strings:
+      - tes61
+      - Int
+      - 61
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 93
+      strings:
+      - tes62
+      - Int
+      - 62
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - tes63
+      - Int
+      - 63
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - tes64
+      - Int
+      - 64
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - tes65
+      - Int
+      - 65
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - tes66
+      - Int
+      - 66
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - tes67
+      - Int
+      - 67
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - tes68
+      - Int
+      - 68
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - tes69
+      - Int
+      - 69
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - tes70
+      - Int
+      - 70
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - tes71
+      - Int
+      - 71
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - tes72
+      - Int
+      - 72
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - tes73
+      - Int
+      - 73
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - tes74
+      - Int
+      - 74
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - tes75
+      - Int
+      - 75
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - tes76
+      - Int
+      - 76
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - tes77
+      - Int
+      - 77
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - tes78
+      - Int
+      - 78
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - tes79
+      - Int
+      - 79
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - tes80
+      - Int
+      - 80
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - tes81
+      - Int
+      - 81
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - tes82
+      - Int
+      - 82
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - tes83
+      - Int
+      - 83
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - tes84
+      - Int
+      - 84
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - tes85
+      - Int
+      - 85
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - tes86
+      - Int
+      - 86
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - tes87
+      - Int
+      - 87
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - tes88
+      - Int
+      - 88
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - tes89
+      - Int
+      - 89
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - tes90
+      - Int
+      - 90
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - tes91
+      - Int
+      - 91
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - tes92
+      - Int
+      - 92
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings:
+      - tes93
+      - Int
+      - 93
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - tes94
+      - Int
+      - 94
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - tes95
+      - Int
+      - 95
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - tes96
+      - Int
+      - 96
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
+      strings:
+      - tes97
+      - Int
+      - 97
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 129
+      strings:
+      - tes98
+      - Int
+      - 98
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 130
+      strings:
+      - tes99
+      - Int
+      - 99
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - tes100
+      - Int
+      - 100
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Param
+    type: 1
+    textLength: 1573
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Name
+      - point
+      - 
+      - name
+      - value
+      - systemFlag
+      - flag
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Type
+      - Int
+      - 
+      - String
+      - Float
+      - Bool
+      - Bool
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - FileType
+      - 
+      - 
+      - 
+      - 
+      - System
+      - Const
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - hoge
+      - 1
+      - 
+      - ??
+      - .1
+      - FALSE
+      - TRUE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - hoge2
+      - -1
+      - 
+      - Utage
+      - 3.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - hoge3
+      - 0
+      - 
+      - Utage
+      - 4.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - hoge4
+      - 1
+      - 
+      - Utage
+      - 5.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - hoge5
+      - 2
+      - 
+      - Utage
+      - 6.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - hoge6
+      - 3
+      - 
+      - Utage
+      - 7.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - hoge7
+      - 4
+      - 
+      - Utage
+      - 8.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - hoge8
+      - 5
+      - 
+      - Utage
+      - 9.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - hoge9
+      - 6
+      - 
+      - Utage
+      - 10.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - hoge10
+      - 7
+      - 
+      - Utage
+      - 11.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - hoge11
+      - 8
+      - 
+      - Utage
+      - 12.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - hoge12
+      - 9
+      - 
+      - Utage
+      - 13.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - hoge13
+      - 10
+      - 
+      - Utage
+      - 14.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - hoge14
+      - 11
+      - 
+      - Utage
+      - 15.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - hoge15
+      - 12
+      - 
+      - Utage
+      - 16.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - hoge16
+      - 13
+      - 
+      - Utage
+      - 17.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - hoge17
+      - 14
+      - 
+      - Utage
+      - 18.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - hoge18
+      - 15
+      - 
+      - Utage
+      - 19.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - hoge19
+      - 16
+      - 
+      - Utage
+      - 20.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - hoge20
+      - 17
+      - 
+      - Utage
+      - 21.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - hoge21
+      - 18
+      - 
+      - Utage
+      - 22.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - hoge22
+      - 19
+      - 
+      - Utage
+      - 23.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - hoge23
+      - 20
+      - 
+      - Utage
+      - 24.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - hoge24
+      - 21
+      - 
+      - Utage
+      - 25.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - hoge25
+      - 22
+      - 
+      - Utage
+      - 26.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - hoge26
+      - 23
+      - 
+      - Utage
+      - 27.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - hoge27
+      - 24
+      - 
+      - Utage
+      - 28.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - hoge28
+      - 25
+      - 
+      - Utage
+      - 29.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - hoge29
+      - 26
+      - 
+      - Utage
+      - 30.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - hoge30
+      - 27
+      - 
+      - Utage
+      - 31.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - hoge31
+      - 28
+      - 
+      - Utage
+      - 32.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - hoge32
+      - 29
+      - 
+      - Utage
+      - 33.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - hoge33
+      - 30
+      - 
+      - Utage
+      - 34.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - hoge34
+      - 31
+      - 
+      - Utage
+      - 35.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - hoge35
+      - 32
+      - 
+      - Utage
+      - 36.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - hoge36
+      - 33
+      - 
+      - Utage
+      - 37.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - hoge37
+      - 34
+      - 
+      - Utage
+      - 38.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - hoge38
+      - 35
+      - 
+      - Utage
+      - 39.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings:
+      - hoge39
+      - 36
+      - 
+      - Utage
+      - 40.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - hoge40
+      - 37
+      - 
+      - Utage
+      - 41.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - hoge41
+      - 38
+      - 
+      - Utage
+      - 42.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - hoge42
+      - 39
+      - 
+      - Utage
+      - 43.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - hoge43
+      - 40
+      - 
+      - Utage
+      - 44.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - hoge44
+      - 41
+      - 
+      - Utage
+      - 45.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - hoge45
+      - 42
+      - 
+      - Utage
+      - 46.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - hoge46
+      - 43
+      - 
+      - Utage
+      - 47.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - hoge47
+      - 44
+      - 
+      - Utage
+      - 48.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - hoge48
+      - 45
+      - 
+      - Utage
+      - 49.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - hoge49
+      - 46
+      - 
+      - Utage
+      - 50.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - hoge50
+      - 47
+      - 
+      - Utage
+      - 51.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - hoge51
+      - 48
+      - 
+      - Utage
+      - 52.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - hoge52
+      - 49
+      - 
+      - Utage
+      - 53.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - hoge53
+      - 50
+      - 
+      - Utage
+      - 54.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - hoge54
+      - 51
+      - 
+      - Utage
+      - 55.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - hoge55
+      - 52
+      - 
+      - Utage
+      - 56.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - hoge56
+      - 53
+      - 
+      - Utage
+      - 57.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - hoge57
+      - 54
+      - 
+      - Utage
+      - 58.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - hoge58
+      - 55
+      - 
+      - Utage
+      - 59.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - hoge59
+      - 56
+      - 
+      - Utage
+      - 60.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - hoge60
+      - 57
+      - 
+      - Utage
+      - 61.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - hoge61
+      - 58
+      - 
+      - Utage
+      - 62.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - hoge62
+      - 59
+      - 
+      - Utage
+      - 63.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - hoge63
+      - 60
+      - 
+      - Utage
+      - 64.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - hoge64
+      - 61
+      - 
+      - Utage
+      - 65.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings:
+      - hoge65
+      - 62
+      - 
+      - Utage
+      - 66.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - hoge66
+      - 63
+      - 
+      - Utage
+      - 67.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - hoge67
+      - 64
+      - 
+      - Utage
+      - 68.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - hoge68
+      - 65
+      - 
+      - Utage
+      - 69.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - hoge69
+      - 66
+      - 
+      - Utage
+      - 70.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - hoge70
+      - 67
+      - 
+      - Utage
+      - 71.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - hoge71
+      - 68
+      - 
+      - Utage
+      - 72.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - hoge72
+      - 69
+      - 
+      - Utage
+      - 73.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 75
+      debugIndex: 75
+      strings:
+      - hoge73
+      - 70
+      - 
+      - Utage
+      - 74.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 76
+      debugIndex: 76
+      strings:
+      - hoge74
+      - 71
+      - 
+      - Utage
+      - 75.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 77
+      debugIndex: 77
+      strings:
+      - hoge75
+      - 72
+      - 
+      - Utage
+      - 76.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 78
+      debugIndex: 78
+      strings:
+      - hoge76
+      - 73
+      - 
+      - Utage
+      - 77.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 79
+      debugIndex: 79
+      strings:
+      - hoge77
+      - 74
+      - 
+      - Utage
+      - 78.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 80
+      debugIndex: 80
+      strings:
+      - hoge78
+      - 75
+      - 
+      - Utage
+      - 79.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 81
+      debugIndex: 81
+      strings:
+      - hoge79
+      - 76
+      - 
+      - Utage
+      - 80.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 82
+      debugIndex: 82
+      strings:
+      - hoge80
+      - 77
+      - 
+      - Utage
+      - 81.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 83
+      debugIndex: 83
+      strings:
+      - hoge81
+      - 78
+      - 
+      - Utage
+      - 82.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 84
+      debugIndex: 84
+      strings:
+      - hoge82
+      - 79
+      - 
+      - Utage
+      - 83.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 85
+      debugIndex: 85
+      strings:
+      - hoge83
+      - 80
+      - 
+      - Utage
+      - 84.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 86
+      debugIndex: 86
+      strings:
+      - hoge84
+      - 81
+      - 
+      - Utage
+      - 85.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 87
+      debugIndex: 87
+      strings:
+      - hoge85
+      - 82
+      - 
+      - Utage
+      - 86.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 88
+      debugIndex: 88
+      strings:
+      - hoge86
+      - 83
+      - 
+      - Utage
+      - 87.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 89
+      debugIndex: 89
+      strings:
+      - hoge87
+      - 84
+      - 
+      - Utage
+      - 88.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 90
+      debugIndex: 90
+      strings:
+      - hoge88
+      - 85
+      - 
+      - Utage
+      - 89.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 91
+      debugIndex: 91
+      strings:
+      - hoge89
+      - 86
+      - 
+      - Utage
+      - 90.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 92
+      debugIndex: 92
+      strings:
+      - hoge90
+      - 87
+      - 
+      - Utage
+      - 91.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 93
+      debugIndex: 93
+      strings:
+      - hoge91
+      - 88
+      - 
+      - Utage
+      - 92.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - hoge92
+      - 89
+      - 
+      - Utage
+      - 93.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - hoge93
+      - 90
+      - 
+      - Utage
+      - 94.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - hoge94
+      - 91
+      - 
+      - Utage
+      - 95.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - hoge95
+      - 92
+      - 
+      - Utage
+      - 96.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - hoge96
+      - 93
+      - 
+      - Utage
+      - 97.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - hoge97
+      - 94
+      - 
+      - Utage
+      - 98.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - hoge98
+      - 95
+      - 
+      - Utage
+      - 99.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - hoge99
+      - 96
+      - 
+      - Utage
+      - 100.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - hoge100
+      - 97
+      - 
+      - Utage
+      - 101.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - hoge101
+      - 98
+      - 
+      - Utage
+      - 102.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - hoge102
+      - 99
+      - 
+      - Utage
+      - 103.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - hoge103
+      - 100
+      - 
+      - Utage
+      - 104.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - hoge104
+      - 101
+      - 
+      - Utage
+      - 105.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - hoge105
+      - 102
+      - 
+      - Utage
+      - 106.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - hoge106
+      - 103
+      - 
+      - Utage
+      - 107.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - hoge107
+      - 104
+      - 
+      - Utage
+      - 108.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - hoge108
+      - 105
+      - 
+      - Utage
+      - 109.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - hoge109
+      - 106
+      - 
+      - Utage
+      - 110.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - hoge110
+      - 107
+      - 
+      - Utage
+      - 111.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - hoge111
+      - 108
+      - 
+      - Utage
+      - 112.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - hoge112
+      - 109
+      - 
+      - Utage
+      - 113.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - hoge113
+      - 110
+      - 
+      - Utage
+      - 114.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - hoge114
+      - 111
+      - 
+      - Utage
+      - 115.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - hoge115
+      - 112
+      - 
+      - Utage
+      - 116.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - hoge116
+      - 113
+      - 
+      - Utage
+      - 117.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - hoge117
+      - 114
+      - 
+      - Utage
+      - 118.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - hoge118
+      - 115
+      - 
+      - Utage
+      - 119.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - hoge119
+      - 116
+      - 
+      - Utage
+      - 120.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - hoge120
+      - 117
+      - 
+      - Utage
+      - 121.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - hoge121
+      - 118
+      - 
+      - Utage
+      - 122.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings:
+      - hoge122
+      - 119
+      - 
+      - Utage
+      - 123.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - hoge123
+      - 120
+      - 
+      - Utage
+      - 124.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - hoge124
+      - 121
+      - 
+      - Utage
+      - 125.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - hoge125
+      - 122
+      - 
+      - Utage
+      - 126.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
+      strings:
+      - hoge126
+      - 123
+      - 
+      - Utage
+      - 127.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 129
+      debugIndex: 129
+      strings:
+      - hoge127
+      - 124
+      - 
+      - Utage
+      - 128.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 130
+      debugIndex: 130
+      strings:
+      - hoge128
+      - 125
+      - 
+      - Utage
+      - 129.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - hoge129
+      - 126
+      - 
+      - Utage
+      - 130.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
+      strings:
+      - hoge130
+      - 127
+      - 
+      - Utage
+      - 131.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 133
+      debugIndex: 133
+      strings:
+      - hoge131
+      - 128
+      - 
+      - Utage
+      - 132.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 134
+      debugIndex: 134
+      strings:
+      - hoge132
+      - 129
+      - 
+      - Utage
+      - 133.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 135
+      debugIndex: 135
+      strings:
+      - hoge133
+      - 130
+      - 
+      - Utage
+      - 134.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 136
+      debugIndex: 136
+      strings:
+      - hoge134
+      - 131
+      - 
+      - Utage
+      - 135.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 137
+      debugIndex: 137
+      strings:
+      - hoge135
+      - 132
+      - 
+      - Utage
+      - 136.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 138
+      debugIndex: 138
+      strings:
+      - hoge136
+      - 133
+      - 
+      - Utage
+      - 137.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 139
+      debugIndex: 139
+      strings:
+      - hoge137
+      - 134
+      - 
+      - Utage
+      - 138.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 140
+      debugIndex: 140
+      strings:
+      - hoge138
+      - 135
+      - 
+      - Utage
+      - 139.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 141
+      debugIndex: 141
+      strings:
+      - hoge139
+      - 136
+      - 
+      - Utage
+      - 140.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 142
+      debugIndex: 142
+      strings:
+      - hoge140
+      - 137
+      - 
+      - Utage
+      - 141.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 143
+      debugIndex: 143
+      strings:
+      - hoge141
+      - 138
+      - 
+      - Utage
+      - 142.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 144
+      debugIndex: 144
+      strings:
+      - hoge142
+      - 139
+      - 
+      - Utage
+      - 143.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 145
+      debugIndex: 145
+      strings:
+      - hoge143
+      - 140
+      - 
+      - Utage
+      - 144.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 146
+      debugIndex: 146
+      strings:
+      - hoge144
+      - 141
+      - 
+      - Utage
+      - 145.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 147
+      debugIndex: 147
+      strings:
+      - hoge145
+      - 142
+      - 
+      - Utage
+      - 146.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 148
+      debugIndex: 148
+      strings:
+      - hoge146
+      - 143
+      - 
+      - Utage
+      - 147.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 149
+      debugIndex: 149
+      strings:
+      - hoge147
+      - 144
+      - 
+      - Utage
+      - 148.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 150
+      debugIndex: 150
+      strings:
+      - hoge148
+      - 145
+      - 
+      - Utage
+      - 149.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 151
+      debugIndex: 151
+      strings:
+      - hoge149
+      - 146
+      - 
+      - Utage
+      - 150.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 152
+      debugIndex: 152
+      strings:
+      - hoge150
+      - 147
+      - 
+      - Utage
+      - 151.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 153
+      debugIndex: 153
+      strings:
+      - hoge151
+      - 148
+      - 
+      - Utage
+      - 152.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 154
+      debugIndex: 154
+      strings:
+      - hoge152
+      - 149
+      - 
+      - Utage
+      - 153.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 155
+      debugIndex: 155
+      strings:
+      - hoge153
+      - 150
+      - 
+      - Utage
+      - 154.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 156
+      debugIndex: 156
+      strings:
+      - hoge154
+      - 151
+      - 
+      - Utage
+      - 155.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 157
+      debugIndex: 157
+      strings:
+      - hoge155
+      - 152
+      - 
+      - Utage
+      - 156.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 158
+      debugIndex: 158
+      strings:
+      - hoge156
+      - 153
+      - 
+      - Utage
+      - 157.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 159
+      debugIndex: 159
+      strings:
+      - hoge157
+      - 154
+      - 
+      - Utage
+      - 158.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 160
+      debugIndex: 160
+      strings:
+      - hoge158
+      - 155
+      - 
+      - Utage
+      - 159.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 161
+      debugIndex: 161
+      strings:
+      - hoge159
+      - 156
+      - 
+      - Utage
+      - 160.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 162
+      debugIndex: 162
+      strings:
+      - hoge160
+      - 157
+      - 
+      - Utage
+      - 161.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 163
+      debugIndex: 163
+      strings:
+      - hoge161
+      - 158
+      - 
+      - Utage
+      - 162.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 164
+      debugIndex: 164
+      strings:
+      - hoge162
+      - 159
+      - 
+      - Utage
+      - 163.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 165
+      debugIndex: 165
+      strings:
+      - hoge163
+      - 160
+      - 
+      - Utage
+      - 164.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 166
+      debugIndex: 166
+      strings:
+      - hoge164
+      - 161
+      - 
+      - Utage
+      - 165.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 167
+      debugIndex: 167
+      strings:
+      - hoge165
+      - 162
+      - 
+      - Utage
+      - 166.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 168
+      debugIndex: 168
+      strings:
+      - hoge166
+      - 163
+      - 
+      - Utage
+      - 167.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 169
+      debugIndex: 169
+      strings:
+      - hoge167
+      - 164
+      - 
+      - Utage
+      - 168.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 170
+      debugIndex: 170
+      strings:
+      - hoge168
+      - 165
+      - 
+      - Utage
+      - 169.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 171
+      debugIndex: 171
+      strings:
+      - hoge169
+      - 166
+      - 
+      - Utage
+      - 170.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 172
+      debugIndex: 172
+      strings:
+      - hoge170
+      - 167
+      - 
+      - Utage
+      - 171.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 173
+      debugIndex: 173
+      strings:
+      - hoge171
+      - 168
+      - 
+      - Utage
+      - 172.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 174
+      debugIndex: 174
+      strings:
+      - hoge172
+      - 169
+      - 
+      - Utage
+      - 173.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 175
+      debugIndex: 175
+      strings:
+      - hoge173
+      - 170
+      - 
+      - Utage
+      - 174.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 176
+      debugIndex: 176
+      strings:
+      - hoge174
+      - 171
+      - 
+      - Utage
+      - 175.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 177
+      debugIndex: 177
+      strings:
+      - hoge175
+      - 172
+      - 
+      - Utage
+      - 176.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 178
+      debugIndex: 178
+      strings:
+      - hoge176
+      - 173
+      - 
+      - Utage
+      - 177.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 179
+      debugIndex: 179
+      strings:
+      - hoge177
+      - 174
+      - 
+      - Utage
+      - 178.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 180
+      debugIndex: 180
+      strings:
+      - hoge178
+      - 175
+      - 
+      - Utage
+      - 179.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 181
+      debugIndex: 181
+      strings:
+      - hoge179
+      - 176
+      - 
+      - Utage
+      - 180.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 182
+      debugIndex: 182
+      strings:
+      - hoge180
+      - 177
+      - 
+      - Utage
+      - 181.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 183
+      debugIndex: 183
+      strings:
+      - hoge181
+      - 178
+      - 
+      - Utage
+      - 182.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 184
+      debugIndex: 184
+      strings:
+      - hoge182
+      - 179
+      - 
+      - Utage
+      - 183.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 185
+      debugIndex: 185
+      strings:
+      - hoge183
+      - 180
+      - 
+      - Utage
+      - 184.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 186
+      debugIndex: 186
+      strings:
+      - hoge184
+      - 181
+      - 
+      - Utage
+      - 185.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 187
+      debugIndex: 187
+      strings:
+      - hoge185
+      - 182
+      - 
+      - Utage
+      - 186.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 188
+      debugIndex: 188
+      strings:
+      - hoge186
+      - 183
+      - 
+      - Utage
+      - 187.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 189
+      debugIndex: 189
+      strings:
+      - hoge187
+      - 184
+      - 
+      - Utage
+      - 188.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 190
+      debugIndex: 190
+      strings:
+      - hoge188
+      - 185
+      - 
+      - Utage
+      - 189.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 191
+      debugIndex: 191
+      strings:
+      - hoge189
+      - 186
+      - 
+      - Utage
+      - 190.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 192
+      debugIndex: 192
+      strings:
+      - hoge190
+      - 187
+      - 
+      - Utage
+      - 191.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 193
+      debugIndex: 193
+      strings:
+      - hoge191
+      - 188
+      - 
+      - Utage
+      - 192.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 194
+      debugIndex: 194
+      strings:
+      - hoge192
+      - 189
+      - 
+      - Utage
+      - 193.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 195
+      debugIndex: 195
+      strings:
+      - hoge193
+      - 190
+      - 
+      - Utage
+      - 194.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 196
+      debugIndex: 196
+      strings:
+      - hoge194
+      - 191
+      - 
+      - Utage
+      - 195.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 197
+      debugIndex: 197
+      strings:
+      - hoge195
+      - 192
+      - 
+      - Utage
+      - 196.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 198
+      debugIndex: 198
+      strings:
+      - hoge196
+      - 193
+      - 
+      - Utage
+      - 197.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 199
+      debugIndex: 199
+      strings:
+      - hoge197
+      - 194
+      - 
+      - Utage
+      - 198.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 200
+      debugIndex: 200
+      strings:
+      - hoge198
+      - 195
+      - 
+      - Utage
+      - 199.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 201
+      debugIndex: 201
+      strings:
+      - hoge199
+      - 196
+      - 
+      - Utage
+      - 200.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 202
+      debugIndex: 202
+      strings:
+      - hoge200
+      - 197
+      - 
+      - Utage
+      - 201.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 203
+      debugIndex: 203
+      strings:
+      - hoge201
+      - 198
+      - 
+      - Utage
+      - 202.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 204
+      debugIndex: 204
+      strings:
+      - hoge202
+      - 199
+      - 
+      - Utage
+      - 203.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 205
+      debugIndex: 205
+      strings:
+      - hoge203
+      - 200
+      - 
+      - Utage
+      - 204.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 206
+      debugIndex: 206
+      strings:
+      - hoge204
+      - 201
+      - 
+      - Utage
+      - 205.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 207
+      debugIndex: 207
+      strings:
+      - hoge205
+      - 202
+      - 
+      - Utage
+      - 206.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 208
+      debugIndex: 208
+      strings:
+      - hoge206
+      - 203
+      - 
+      - Utage
+      - 207.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 209
+      debugIndex: 209
+      strings:
+      - hoge207
+      - 204
+      - 
+      - Utage
+      - 208.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 210
+      debugIndex: 210
+      strings:
+      - hoge208
+      - 205
+      - 
+      - Utage
+      - 209.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 211
+      debugIndex: 211
+      strings:
+      - hoge209
+      - 206
+      - 
+      - Utage
+      - 210.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 212
+      debugIndex: 212
+      strings:
+      - hoge210
+      - 207
+      - 
+      - Utage
+      - 211.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 213
+      debugIndex: 213
+      strings:
+      - hoge211
+      - 208
+      - 
+      - Utage
+      - 212.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 214
+      debugIndex: 214
+      strings:
+      - hoge212
+      - 209
+      - 
+      - Utage
+      - 213.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 215
+      debugIndex: 215
+      strings:
+      - hoge213
+      - 210
+      - 
+      - Utage
+      - 214.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 216
+      debugIndex: 216
+      strings:
+      - hoge214
+      - 211
+      - 
+      - Utage
+      - 215.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 217
+      debugIndex: 217
+      strings:
+      - hoge215
+      - 212
+      - 
+      - Utage
+      - 216.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 218
+      debugIndex: 218
+      strings:
+      - hoge216
+      - 213
+      - 
+      - Utage
+      - 217.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 219
+      debugIndex: 219
+      strings:
+      - hoge217
+      - 214
+      - 
+      - Utage
+      - 218.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 220
+      debugIndex: 220
+      strings:
+      - hoge218
+      - 215
+      - 
+      - Utage
+      - 219.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 221
+      debugIndex: 221
+      strings:
+      - hoge219
+      - 216
+      - 
+      - Utage
+      - 220.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 222
+      debugIndex: 222
+      strings:
+      - hoge220
+      - 217
+      - 
+      - Utage
+      - 221.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 223
+      debugIndex: 223
+      strings:
+      - hoge221
+      - 218
+      - 
+      - Utage
+      - 222.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 224
+      debugIndex: 224
+      strings:
+      - hoge222
+      - 219
+      - 
+      - Utage
+      - 223.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 225
+      debugIndex: 225
+      strings:
+      - hoge223
+      - 220
+      - 
+      - Utage
+      - 224.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 226
+      debugIndex: 226
+      strings:
+      - hoge224
+      - 221
+      - 
+      - Utage
+      - 225.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 227
+      debugIndex: 227
+      strings:
+      - hoge225
+      - 222
+      - 
+      - Utage
+      - 226.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 228
+      debugIndex: 228
+      strings:
+      - hoge226
+      - 223
+      - 
+      - Utage
+      - 227.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 229
+      debugIndex: 229
+      strings:
+      - hoge227
+      - 224
+      - 
+      - Utage
+      - 228.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 230
+      debugIndex: 230
+      strings:
+      - hoge228
+      - 225
+      - 
+      - Utage
+      - 229.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 231
+      debugIndex: 231
+      strings:
+      - hoge229
+      - 226
+      - 
+      - Utage
+      - 230.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 232
+      debugIndex: 232
+      strings:
+      - hoge230
+      - 227
+      - 
+      - Utage
+      - 231.14
+      - TRUE
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:ParamTbl{}
+    type: 1
+    textLength: 6644
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - ScenarioLabel
+      - Title
+      - Thumbnail
+      - ThumbnailVersion
+      - Categolly
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - '*Start'
+      - "\u958B\u59CB"
+      - ThumbnailSample.jpg
+      - 
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30E2\u30FC\u30C9\u306E\u30C6\u30B9\u30C81"
+      - Opening
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - '*Gallery'
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30E2\u30FC\u30C9\u306E\u30C6\u30B9\u30C8"
+      - ThumbnailSample.jpg
+      - 
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC\u30E2\u30FC\u30C9\u306E\u30C6\u30B9\u30C82"
+      - Test Gallery Mode
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:SceneGallery
+    type: 1
+    textLength: 175
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Key
+      - Japanese
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Yes
+      - "\u306F\u3044"
+      - Yes
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - No
+      - "\u3044\u3044\u3048"
+      - No
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - Ok
+      - OK
+      - OK
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
+      strings:
+      - Cancel
+      - "\u30AD\u30E3\u30F3\u30BB\u30EB"
+      - Cancel
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - Back
+      - "\u3082\u3069\u308B"
+      - Back
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - Clear
+      - "\u30AF\u30EA\u30A2"
+      - Clear
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - Retry
+      - "\u30EA\u30C8\u30E9\u30A4"
+      - Retry
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - History
+      - "\u5C65\u6B74"
+      - History
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - Save
+      - "\u30BB\u30FC\u30D6"
+      - Save
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - Load
+      - "\u30ED\u30FC\u30C9"
+      - Load
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - On
+      - "\u30AA\u30F3"
+      - On
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - Off
+      - "\u30AA\u30D5"
+      - Off
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - None
+      - "\u306A\u3057"
+      - None
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - Skip
+      - "\u30B9\u30AD\u30C3\u30D7"
+      - Skip
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - Sound
+      - "\u30B5\u30A6\u30F3\u30C9"
+      - Sound
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - Review
+      - "\u30EC\u30D3\u30E5\u30FC"
+      - Review
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - Restore
+      - "\u30EA\u30B9\u30C8\u30A2"
+      - Restore
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 19
+      debugIndex: 19
+      strings:
+      - QuitGame
+      - "\u30B2\u30FC\u30E0\u3092\u7D42\u4E86\u3057\u307E\u3059\u304B\uFF1F"
+      - Quit Game?
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 20
+      debugIndex: 20
+      strings:
+      - DebugInfo
+      - "\u25CF\u30C7\u30D0\u30C3\u30B0\u60C5\u5831"
+      - Debug Info
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 21
+      debugIndex: 21
+      strings:
+      - DebugLog
+      - "\u25CF\u30C7\u30D0\u30C3\u30B0\u30ED\u30B0"
+      - Debug Log
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - DebugMenu
+      - "\u25CF\u30C7\u30D0\u30C3\u30B0\u30E1\u30CB\u30E5\u30FC"
+      - Debug Memu
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - DeleteSaveAndQuit
+      - "\u30BB\u30FC\u30D6\u6D88\u53BB\uFF06\u7D42\u4E86"
+      - Delete Save
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - DeleteCacheFile
+      - "\uFF77\uFF6C\uFF6F\uFF7C\uFF6D\uFF8C\uFF67\uFF72\uFF99\u524A\u9664"
+      - Delete Cache
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - Language
+      - "\u8A00\u8A9E"
+      - Language
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - DeleteAllSaveDataFilesTitle
+      - "\u300C\u5BB4\u300D\u306E\u30BB\u30FC\u30D6\u30C7\u30FC\u30BF\u3092\u6D88\u53BB"
+      - Delete save data of "Utage"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - DeleteAllSaveDataFilesMessage
+      - "\u300C\u5BB4\u300D\u306E\u30BB\u30FC\u30D6\u30C7\u30FC\u30BF\u3092\u5168\u3066\u6D88\u53BB\u3057\u307E\u3059\u304B\uFF1F"
+      - Are you sure you want to clear all saved data of "Utage"?
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - DeleteAllCacheFilesTitle
+      - "\u300C\u5BB4\u300D\u306E\u30AD\u30E3\u30C3\u30B7\u30E5\u30D5\u30A1\u30A4\u30EB\u3092\u6D88\u53BB"
+      - Delete cache files of "Utage"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - DeleteAllCacheFilesMessage
+      - "\u300C\u5BB4\u300D\u306E\u30AD\u30E3\u30C3\u30B7\u30E5\u30D5\u30A1\u30A4\u30EB\u3092\u5168\u3066\u6D88\u53BB\u3057\u307E\u3059\u304B\uFF1F"
+      - Are you sure you want to clear all cache files of "Utage"?
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - DeleteAllOutputFilesTitle
+      - "\u300C\u5BB4\u300D\u306E\u51FA\u529B\u30D5\u30A1\u30A4\u30EB\u3092\u6D88\u53BB"
+      - Delete output files of "Utage"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
+      strings:
+      - DeleteAllOutputFilesMessage
+      - "\u300C\u5BB4\u300D\u306E\u51FA\u529B\u30D5\u30A1\u30A4\u30EB\uFF08\u30BB\u30FC\u30D6\u30C7\u30FC\u30BF\u3068\u30AD\u30E3\u30C3\u30B7\u30E5\u30D5\u30A1\u30A4\u30EB\uFF09\u3092\u5168\u3066\u6D88\u53BB\u3057\u307E\u3059\u304B\uFF1F"
+      - Are you sure you want to clear all (cache file and save data) output file
+        of "Utage"?
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 32
+      debugIndex: 32
+      strings:
+      - Downloading
+      - "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u4E2D\u3067\u3059..."
+      - Downloading...
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 33
+      debugIndex: 33
+      strings:
+      - DownloadCount
+      - '{0}/{1}'
+      - '{0}/{1}'
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 34
+      debugIndex: 34
+      strings:
+      - DownloadFinished
+      - "\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u5B8C\u4E86\uFF01"
+      - Download Finished!
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 35
+      debugIndex: 35
+      strings:
+      - WarningNotOnline
+      - "\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\u306B\u3064\u306A\u304C\u3063\u3066\u3044\u307E\u305B\u3093"
+      - Warning! Not Online
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - WarningNotWifi
+      - "\u30B5\u30A4\u30BA\u306E\u5927\u304D\u3044\u30C7\u30FC\u30BF\u304C\u30C0\u30A6\u30F3\u30ED\u30FC\u30C9\u3055\u308C\u307E\u3059\u3002Wifi\u63A5\u7D9A\u3067\u306F\u306A\u3044\u3067\u3059\u304C\u3088\u308D\u3057\u3044\u3067\u3059\u304B\u3002"
+      - Warning! Not Wifi
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
+      strings:
+      - ChangeCurrentProject
+      - "\u73FE\u5728\u306E\u30B7\u30CA\u30EA\u30AA\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\u30D5\u30A1\u30A4\u30EB\u3092\u5909\u66F4\u3057\u307E\u3059"
+      - Change Current Scenario Data Project
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - VersionUpScene
+      - "\u5BB4\u306E\u30B7\u30FC\u30F3\u3092\u30D0\u30FC\u30B8\u30E7\u30F3\u30A2\u30C3\u30D7\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002\u3088\u308D\u3057\u3044\u3067\u3059\u304B"
+      - "Current UTAGE scene should be upgraded. Is it OK\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
+      strings:
+      - VersionUpScenario
+      - "\u5BB4\u306E\u30B7\u30CA\u30EA\u30AA\u3092\u518D\u30A4\u30F3\u30DD\u30FC\u30C8\u3057\u3066\u30D0\u30FC\u30B8\u30E7\u30F3\u30A2\u30C3\u30D7\u3059\u308B\u5FC5\u8981\u304C\u3042\u308A\u307E\u3059\u3002\u3088\u308D\u3057\u3044\u3067\u3059\u304B"
+      - "Current UTAGE Scenario should be upgraded. Is it OK\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 40
+      debugIndex: 40
+      strings:
+      - Redownload
+      - "\u518D\uFF80\uFF9E\uFF73\uFF9D\uFF9B\uFF70\uFF84\uFF9E"
+      - Redownload
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 41
+      debugIndex: 41
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 42
+      debugIndex: 42
+      strings:
+      - StartGame
+      - "\u306F\u3058\u3081\u304B\u3089"
+      - Start Game
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 43
+      debugIndex: 43
+      strings:
+      - Load
+      - "\u30ED\u30FC\u30C9"
+      - Load
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 44
+      debugIndex: 44
+      strings:
+      - Config
+      - "\u30B3\u30F3\u30D5\u30A3\u30B0"
+      - Config
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 45
+      debugIndex: 45
+      strings:
+      - Back
+      - "\u623B\u308B"
+      - Back
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 46
+      debugIndex: 46
+      strings:
+      - Title
+      - "\u30BF\u30A4\u30C8\u30EB"
+      - Title
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 47
+      debugIndex: 47
+      strings:
+      - ResetDefault
+      - "\uFF83\uFF9E\uFF8C\uFF6B\uFF99\uFF84\\n\u306B\u623B\u3059"
+      - Reset\nDefault
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 48
+      debugIndex: 48
+      strings:
+      - MessageSpeed
+      - "\u30E1\u30C3\u30BB\u30FC\u30B8\u901F\u5EA6"
+      - Message speed
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 49
+      debugIndex: 49
+      strings:
+      - AutoMessageSpeed
+      - "\u81EA\u52D5\u30E1\u30C3\u30BB\u30FC\u30B8\u901F\u5EA6"
+      - Auto message speed
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 50
+      debugIndex: 50
+      strings:
+      - WindowTransparent
+      - "\u30A6\u30A4\u30F3\u30C9\u30A6\u306E\u900F\u660E\u5EA6"
+      - Window transparent
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 51
+      debugIndex: 51
+      strings:
+      - SkipUnread
+      - "\u672A\u8AAD\u3067\u3082\u30B9\u30AD\u30C3\u30D7\u3059\u308B"
+      - Skip unread
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 52
+      debugIndex: 52
+      strings:
+      - SkipReleasedBySelection
+      - "\u9078\u629E\u80A2\u3067\u30B9\u30AD\u30C3\u30D7\u89E3\u9664"
+      - Skip released by selection
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 53
+      debugIndex: 53
+      strings:
+      - SendMesssageByMouseWheel
+      - "\u30DE\u30A6\u30B9\u30DB\u30A4\u30FC\u30EB\u3067\\n\u6587\u5B57\u9001\u308A"
+      - Send messsage\nby mouse wheel
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 54
+      debugIndex: 54
+      strings:
+      - FullScreen
+      - "\u30D5\u30EB\u30B9\u30AF\u30EA\u30FC\u30F3\u8868\u793A"
+      - Full screen
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 55
+      debugIndex: 55
+      strings:
+      - SoundVolume
+      - "\u97F3\u91CF"
+      - Sound volume
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 56
+      debugIndex: 56
+      strings:
+      - All
+      - "\u5168\u4F53"
+      - All
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 57
+      debugIndex: 57
+      strings:
+      - Bgm
+      - BGM
+      - BGM
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 58
+      debugIndex: 58
+      strings:
+      - Se
+      - SE
+      - SE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 59
+      debugIndex: 59
+      strings:
+      - Ambience
+      - "\u74B0\u5883\u97F3"
+      - Ambience
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 60
+      debugIndex: 60
+      strings:
+      - Voice
+      - "\u30DC\u30A4\u30B9"
+      - Voice
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 61
+      debugIndex: 61
+      strings:
+      - ContinueUntilNext
+      - "\u6B21\u306E\u97F3\u58F0\u307E\u3067\u518D\u751F\u3092\u7D9A\u3051\u308B"
+      - Continue until next
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 62
+      debugIndex: 62
+      strings:
+      - StopOnClick
+      - "\u30AF\u30EA\u30C3\u30AF\u3067\u505C\u6B62"
+      - StopOnClick
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 63
+      debugIndex: 63
+      strings:
+      - CgGallery
+      - "CG\u56DE\u60F3"
+      - Cg Gallery
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 64
+      debugIndex: 64
+      strings:
+      - SceneGallery
+      - "\u30B7\u30FC\u30F3\u56DE\u60F3"
+      - Scene Gallery
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 65
+      debugIndex: 65
+      strings:
+      - SoundRoom
+      - "\u30B5\u30A6\u30F3\u30C9\u30EB\u30FC\u30E0"
+      - Sound Room
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 66
+      debugIndex: 66
+      strings:
+      - Gallery
+      - "\u30AE\u30E3\u30E9\u30EA\u30FC"
+      - Gallery
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 67
+      debugIndex: 67
+      strings: []
+      isEmpty: 1
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 68
+      debugIndex: 68
+      strings:
+      - 
+      isEmpty: 0
+      isCommentOut: 1
+      debugInfo: 
+    - rowIndex: 69
+      debugIndex: 69
+      strings:
+      - "\u3046\u305F\u3053"
+      - "\u3046\u305F\u3053"
+      - Utako!
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 70
+      debugIndex: 70
+      strings:
+      - "\u30E9\u30F3"
+      - "\u30E9\u30F3"
+      - Run
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 71
+      debugIndex: 71
+      strings:
+      - "\u30ED\u30DC\u5B50"
+      - "\u30ED\u30DC\u5B50"
+      - Roboko
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 72
+      debugIndex: 72
+      strings:
+      - "\u30B3\u30B3"
+      - "\u30B3\u30B3"
+      - Coco
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 73
+      debugIndex: 73
+      strings:
+      - "\u3053\u306F\u304F"
+      - "\u3053\u306F\u304F"
+      - Kohaku
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 74
+      debugIndex: 74
+      strings:
+      - "\u305D\u306E\u4ED6"
+      - "\u305D\u306E\u4ED6"
+      - Others
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleLegacy/Scenario/Sample.xls:Localize
+    type: 1
+    textLength: 2274
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: a74e7982b4a9e994c869a6a1c3e0ee1c,
+      type: 3}
+  customDataList: []

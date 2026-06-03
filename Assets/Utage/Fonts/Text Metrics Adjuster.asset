@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad874e241614c16945160810438b716, type: 3}
+  m_Name: Text Metrics Adjuster
+  m_EditorClassIdentifier: 
+  font: {fileID: 11400000, guid: 551ff79a05a523d42b7eb0a20fccfbbe, type: 2}
+  fallbacks:
+  - {fileID: 11400000, guid: 9b0c5c08315aa904680f95ac25e659d7, type: 2}
+  - {fileID: 11400000, guid: f850ee70fbcacd344ae2da840ad16b74, type: 2}
+  - {fileID: 11400000, guid: c26b88837cdafce46afd112418e979e4, type: 2}
+  - {fileID: 11400000, guid: abe564c4c3528fe4f882215cbbccd0e8, type: 2}
+  - {fileID: 11400000, guid: d35ea1e4bdbd2cc45955463d9a10a84f, type: 2}
+  - {fileID: 11400000, guid: ad0e45dab1de12a4db40c51462806a9a, type: 2}
+  - {fileID: 11400000, guid: c9e402c4d41135843bf4f875882eebfa, type: 2}
+  - {fileID: 11400000, guid: 3fe63a47c4afe334a90c5faf97597915, type: 2}
+  - {fileID: 11400000, guid: 933fbd8c973bf4c4e8f0d4df469c7852, type: 2}
+  disableCharacterSettings:
+    disableCombiningMark: 1
+    disableCharacters: "\u3031\u3032\u210A\u047C\u1EA8\u1EAA\u1EAE\u1EB0\u1EB2\u1EB4\u1EC2\u1EC4\u1ED4\u1ED6\u01D5\u01D7\u01D9\u01DB\u01DE\u01E0\u022A\u022C\u0230\u1E14\u1E16\u1E2E\u1E4C\u1E4E\u1E50\u1E52\u1E66\u1E78\u1E7A\u2E0E\u2E10\u2E11\u2E3E 
+      \u1E00\u1E01\u02F3\u1ABF\u1AC0\u0977\uFFE8"
+  maxAscent: 30
+  minDescent: -8
+  check: 
+  makeTextMetrics: 
+  textMetrics:
+    pointSize: 30
+    lineHeight: 37.9375
+    ascentLine: 29.96875
+    capLine: 22
+    meanLine: 17
+    baseline: 0
+    descentLine: -7.96875
+    superscriptOffset: 29.96875
+    superscriptSize: 0.5
+    subscriptOffset: -7.96875
+    subscriptSize: 0.5
+    underlineOffset: -3.7500002
+    underlineThickness: 1.5
+    strikethroughOffset: 6.8
+    strikethroughThickness: 1.5
+    tabWidth: 8
+  apply: 

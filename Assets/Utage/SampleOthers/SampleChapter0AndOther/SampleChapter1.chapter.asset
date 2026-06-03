@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e889193e22a9747940ed2cfe192e6e, type: 3}
+  m_Name: SampleChapter1.chapter
+  m_EditorClassIdentifier: 
+  chapterName: SampleChapter1
+  dataList:
+  - {fileID: 11400000, guid: 48c33e7d628b271419bc37851ed1c572, type: 2}
+  settingList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F\u305D\u306E1"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - TutorialBg1.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter1/Chapter1.xls:Texture
+    type: 1
+    textLength: 97
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 3b002a886c5d93b4091603ef999beb17,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - IntroTime
+      - Volume
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "BGM\u305D\u306E1"
+      - "\u30E1\u30A4\u30F3\u30C6\u30FC\u30DE"
+      - Bgm
+      - SampleIntroLoop.wav
+      - 2.976
+      - 
+      - Main theme
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter1/Chapter1.xls:Sound
+    type: 1
+    textLength: 93
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 3b002a886c5d93b4091603ef999beb17,
+      type: 3}
+  customDataList: []

@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e889193e22a9747940ed2cfe192e6e, type: 3}
+  m_Name: SampleChapter0.chapter
+  m_EditorClassIdentifier: 
+  chapterName: SampleChapter0
+  dataList:
+  - {fileID: 11400000, guid: 696b362497ff7724c91f61e24ff642d8, type: 2}
+  settingList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - CharacterName
+      - NameText
+      - Pattern
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u3046\u305F\u3053"
+      - "\u3046\u305F\u3053"
+      - "\u901A\u5E38"
+      - Bottom
+      - 
+      - 
+      - 
+      - Utako/utako.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u30E9\u30F3"
+      - "\u30E9\u30F3"
+      - "\u901A\u5E38"
+      - Bottom
+      - 
+      - 
+      - 
+      - Run/run.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Character
+    type: 1
+    textLength: 126
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Texture
+    type: 1
+    textLength: 75
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - Streaming
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Sound
+    type: 1
+    textLength: 31
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - LayerName
+      - Type
+      - X
+      - Y
+      - Order
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - Character
+      - 0
+      - -350
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Layer
+    type: 1
+    textLength: 42
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Value
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - player_name
+      - String
+      - "\u4E3B\u4EBA\u516C"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - system_value0
+      - Int
+      - 0
+      - System
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - value0
+      - Int
+      - 0
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Param
+    type: 1
+    textLength: 75
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Name
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Type
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - FileType
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:ParamTbl{}
+    type: 1
+    textLength: 16
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - ScenarioLabel
+      - Title
+      - Thumbnail
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:SceneGallery
+    type: 1
+    textLength: 27
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Key
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter0/Chapter0.xls:Localize
+    type: 1
+    textLength: 3
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: 92a508b55da233c43b79a9647b12a9ef,
+      type: 3}
+  customDataList: []

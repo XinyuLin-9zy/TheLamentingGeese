@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655b90d414f72164e9d28559fd48c58c, type: 3}
+  m_Name: NotoSans Character Collection
+  m_EditorClassIdentifier: 
+  input:
+    texts: []
+    fonts:
+    - {fileID: 12800000, guid: 7c9980bcc0e76244ca727bb00d6ad79e, type: 3}
+    extraCharacters: "_\u2026"
+  remove:
+    texts: []
+    fontAssets: []
+    surrogatePare: 0
+    combiningMark: 0
+  target:
+    font: {fileID: 12800000, guid: 7c9980bcc0e76244ca727bb00d6ad79e, type: 3}
+  output:
+    outputDir: {fileID: 102900000, guid: 004a53c5b8b8e354c9cea38a519cbb6d, type: 3}
+    maxGlyphCount: 13300
+  generate: 

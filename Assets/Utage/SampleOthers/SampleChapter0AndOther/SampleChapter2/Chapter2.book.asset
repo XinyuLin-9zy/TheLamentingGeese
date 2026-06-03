@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9856eecfcd6b8df42ac2ebd73cc36dff, type: 3}
+  m_Name: Chapter2.book
+  m_EditorClassIdentifier: 
+  importVersion: 0
+  importGridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - "\u30E9\u30F3"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "2\u7AE0\u958B\u59CB\u3067\u3059"
+      - 
+      - 
+      - 
+      - Chapter 2 begins.
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter2/Chapter2.xls:Chapter2
+    type: 1
+    textLength: 106
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: bcc7f856ad14c9047b7a6d39995f11d5,
+      type: 3}
+    entityIndexTbl: 
+    entityDataList: []
+  gridList:
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Type
+      - Pivot
+      - Scale
+      - Conditional
+      - ReadWrite
+      - FileName
+      - FileType
+      - Thumbnail
+      - CgCategolly
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u80CC\u666F\u305D\u306E2"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - TutorialBg2.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter2/Chapter2.xls:Texture
+    type: 1
+    textLength: 97
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: bcc7f856ad14c9047b7a6d39995f11d5,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Label
+      - Title
+      - Type
+      - FileName
+      - IntroTime
+      - Volume
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "BGM\u305D\u306E2"
+      - "\u30B9\u30C6\u30FC\u30B8"
+      - Bgm
+      - stage.wav
+      - 
+      - 
+      - Stage
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter2/Chapter2.xls:Sound
+    type: 1
+    textLength: 71
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: bcc7f856ad14c9047b7a6d39995f11d5,
+      type: 3}
+  - rows:
+    - rowIndex: 0
+      debugIndex: 0
+      strings:
+      - Command
+      - Arg1
+      - Arg2
+      - Arg3
+      - Arg4
+      - Arg5
+      - Arg6
+      - Text
+      - PageCtrl
+      - Voice
+      - WindowType
+      - English
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Bg
+      - "\u80CC\u666F\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Bgm
+      - "BGM\u305D\u306E2"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - 
+      - "\u30E9\u30F3"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - "2\u7AE0\u958B\u59CB\u3067\u3059"
+      - 
+      - 
+      - 
+      - Chapter 2 begins.
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    name: Assets/Utage/SampleOthers/SampleChapter0AndOther/SampleChapter2/Chapter2.xls:Chapter2
+    type: 1
+    textLength: 106
+    headerRow: 0
+    sourceAssetInEditor: {fileID: 102900000, guid: bcc7f856ad14c9047b7a6d39995f11d5,
+      type: 3}
