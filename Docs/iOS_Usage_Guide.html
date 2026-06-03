@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>The Weeping Swan / Ten Days of the City's Fall - iOS 使用说明</title>
+  <style>
+    :root{
+      --bg:#eef2f7;
+      --panel:#ffffff;
+      --panel-soft:#f8fafc;
+      --line:#d7dee8;
+      --ink:#172033;
+      --muted:#5f6b7a;
+      --accent:#0f766e;
+      --accent-2:#b45309;
+      --accent-3:#7c3aed;
+      --success:#146c43;
+      --danger:#9f1239;
+      --shadow:0 1px 0 rgba(23,32,51,.04);
+      --radius:8px;
+      --mono:SFMono-Regular, ui-monospace, Menlo, Consolas, "Liberation Mono", monospace;
+      --sans:-apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font:16px/1.6 var(--sans);
+      letter-spacing:0;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    code, pre{font-family:var(--mono)}
+    .page{
+      max-width:1240px;
+      margin:0 auto;
+      padding:24px;
+    }
+    .topbar{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:24px;
+      padding:20px 22px;
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    .brand{
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+      min-width:0;
+    }
+    .mark{
+      width:48px;
+      height:48px;
+      border:1px solid var(--line);
+      border-radius:10px;
+      background:#f9fbfd;
+      display:grid;
+      place-items:center;
+      flex:0 0 auto;
+    }
+    .mark svg{display:block}
+    .eyebrow{
+      margin:0 0 4px;
+      color:var(--muted);
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:0;
+    }
+    h1{
+      margin:0;
+      font-size:28px;
+      line-height:1.2;
+    }
+    .lead{
+      margin:8px 0 0;
+      color:var(--muted);
+      max-width:860px;
+    }
+    .chips{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:var(--panel-soft);
+      color:var(--ink);
+      font-size:13px;
+      white-space:nowrap;
+    }
+    .chip strong{font-weight:600}
+    .grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.7fr) minmax(280px,.9fr);
+      gap:18px;
+      margin-top:18px;
+      align-items:start;
+    }
+    .stack{
+      display:grid;
+      gap:18px;
+      min-width:0;
+    }
+    section{
+      background:var(--panel);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .section-head{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      padding:16px 18px 12px;
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg,#fff 0,#fbfcfe 100%);
+    }
+    .section-head h2{
+      margin:0;
+      font-size:20px;
+      line-height:1.25;
+    }
+    .section-head p{
+      margin:4px 0 0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .section-body{
+      padding:18px;
+    }
+    .info-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+    }
+    .info{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:14px 15px;
+      background:var(--panel-soft);
+      min-width:0;
+    }
+    .info .label{
+      color:var(--muted);
+      font-size:13px;
+      margin:0 0 4px;
+    }
+    .info .value{
+      margin:0;
+      word-break:break-word;
+    }
+    .hotline{
+      display:grid;
+      gap:10px;
+      grid-template-columns:1fr;
+    }
+    .url-card{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:#fffdfa;
+      padding:14px 15px;
+    }
+    .url-card strong{
+      display:block;
+      margin-bottom:6px;
+      font-size:15px;
+    }
+    .url-card a{
+      font-family:var(--mono);
+      word-break:break-all;
+    }
+    .url-actions{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .btn{
+      appearance:none;
+      border:1px solid var(--line);
+      background:#fff;
+      color:var(--ink);
+      border-radius:8px;
+      padding:8px 12px;
+      font:inherit;
+      cursor:pointer;
+      line-height:1.2;
+    }
+    .btn:hover{border-color:#b9c3d2}
+    .btn.primary{
+      background:var(--accent);
+      border-color:var(--accent);
+      color:#fff;
+    }
+    .btn.primary:hover{background:#115e59}
+    .note{
+      padding:14px 15px;
+      border-left:4px solid var(--accent-2);
+      background:#fff8ef;
+      color:#5b3b12;
+      border-radius:var(--radius);
+    }
+    .note strong{display:block; margin-bottom:4px}
+    ol.steps{
+      margin:0;
+      padding-left:20px;
+    }
+    ol.steps > li{
+      margin:0 0 14px;
+      padding-left:4px;
+    }
+    .code-wrap{
+      position:relative;
+      margin-top:10px;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:#0f172a;
+      color:#e2e8f0;
+      overflow:hidden;
+    }
+    .code-toolbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:10px;
+      padding:10px 12px;
+      border-bottom:1px solid rgba(255,255,255,.08);
+      background:rgba(255,255,255,.04);
+      color:#cbd5e1;
+      font-size:13px;
+    }
+    pre{
+      margin:0;
+      padding:14px 16px 16px;
+      overflow:auto;
+      font-size:13px;
+      line-height:1.55;
+      white-space:pre-wrap;
+      word-break:break-word;
+    }
+    pre code{white-space:inherit}
+    .copy{
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.08);
+      color:#f8fafc;
+      border-radius:7px;
+      padding:6px 10px;
+      font:inherit;
+      font-size:12px;
+      cursor:pointer;
+    }
+    .copy:hover{background:rgba(255,255,255,.14)}
+    .workflow{
+      display:grid;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:10px;
+    }
+    .flow-step{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:var(--panel-soft);
+      padding:14px;
+      min-width:0;
+      position:relative;
+    }
+    .flow-step::after{
+      content:"";
+      position:absolute;
+      right:-7px;
+      top:50%;
+      width:12px;
+      height:12px;
+      border-top:1px solid var(--line);
+      border-right:1px solid var(--line);
+      transform:translateY(-50%) rotate(45deg);
+      background:var(--bg);
+    }
+    .flow-step:last-child::after{display:none}
+    .flow-step .num{
+      display:inline-flex;
+      width:26px;
+      height:26px;
+      align-items:center;
+      justify-content:center;
+      border-radius:999px;
+      background:#e6fffb;
+      color:var(--accent);
+      font-weight:700;
+      margin-bottom:10px;
+    }
+    .flow-step h3{
+      margin:0 0 6px;
+      font-size:16px;
+    }
+    .flow-step p{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .toc{
+      position:sticky;
+      top:18px;
+      display:grid;
+      gap:14px;
+    }
+    .toc-box{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:var(--panel);
+      padding:16px;
+      box-shadow:var(--shadow);
+    }
+    .toc-box h3{
+      margin:0 0 8px;
+      font-size:16px;
+    }
+    .toc-list{
+      display:grid;
+      gap:8px;
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    .toc-list a{
+      display:block;
+      padding:7px 10px;
+      border-radius:7px;
+      border:1px solid transparent;
+      color:var(--ink);
+      background:var(--panel-soft);
+    }
+    .toc-list a:hover{
+      border-color:#cfd7e3;
+      text-decoration:none;
+    }
+    .toc small{
+      color:var(--muted);
+      display:block;
+      margin-top:10px;
+    }
+    .faq{
+      display:grid;
+      gap:10px;
+    }
+    details{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:var(--panel-soft);
+      padding:0 14px;
+    }
+    summary{
+      cursor:pointer;
+      padding:12px 0;
+      font-weight:600;
+      list-style:none;
+    }
+    summary::-webkit-details-marker{display:none}
+    details p, details ul{margin:0 0 14px}
+    .mini-list{
+      margin:0;
+      padding-left:18px;
+    }
+    .footer{
+      margin:18px 0 6px;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+    }
+    .tagline{
+      display:inline-flex;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:8px;
+      padding:10px 12px;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      background:#fff;
+      color:var(--ink);
+      margin-top:12px;
+    }
+    .tagline strong{
+      color:var(--danger);
+    }
+    .tagline a{
+      font-family:var(--mono);
+      overflow-wrap:anywhere;
+    }
+    @media (max-width: 1024px){
+      .grid{grid-template-columns:1fr}
+      .toc{position:static}
+      .workflow{grid-template-columns:1fr 1fr}
+      .workflow .flow-step:nth-child(2n)::after{display:none}
+    }
+    @media (max-width: 720px){
+      .page{padding:12px}
+      .topbar{padding:16px}
+      .brand{flex-direction:column}
+      .chips{justify-content:flex-start}
+      .info-grid{grid-template-columns:1fr}
+      .workflow{grid-template-columns:1fr}
+      .workflow .flow-step::after{display:none}
+      h1{font-size:24px}
+      .section-body{padding:14px}
+      .section-head{padding:14px 14px 10px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="5" width="20" height="18" rx="4" fill="#E6FFFB" stroke="#0F766E"/>
+            <path d="M8 10H20" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M8 14H20" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M8 18H15" stroke="#0F766E" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow">The Weeping Swan / Ten Days of the City's Fall</p>
+          <h1>iOS 打包与本地资源部署说明</h1>
+          <p class="lead">这是给 Mac + Unity + Xcode + iPhone 的现场使用说明。先拉最新 git，再打 iOS AssetBundle，再把资源部署到本机静态服务器，最后导出 Xcode 工程跑到真机上。</p>
+          <div class="tagline">
+            <strong>热梗版一句话：</strong>
+            <span>先让手机找到 Mac 的资源服务器，不要把 <code>127.0.0.1</code> 塞进真机。</span>
+            <a href="http://192.168.1.6:8000/theweepingswan/1.0.0" target="_blank" rel="noreferrer">点这里就是刚才那个资源网页地址</a>
+          </div>
+        </div>
+      </div>
+      <div class="chips" aria-label="status">
+        <span class="chip"><strong>Unity</strong> 2022.3.62f1</span>
+        <span class="chip"><strong>平台</strong> iOS</span>
+        <span class="chip"><strong>资源</strong> AssetBundle</span>
+        <span class="chip"><strong>Xcode</strong> 26.3</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="stack">
+        <section id="quick">
+          <div class="section-head">
+            <div>
+              <h2>当前可用地址</h2>
+              <p>这两个地址是现在最重要的入口。先点资源根地址，再点 iOS manifest。手机和 Mac 必须在同一个局域网。</p>
+            </div>
+          </div>
+          <div class="section-body hotline">
+            <div class="url-card">
+              <strong>资源根地址</strong>
+              <a href="http://192.168.1.6:8000/theweepingswan/1.0.0" target="_blank" rel="noreferrer">http://192.168.1.6:8000/theweepingswan/1.0.0</a>
+              <div class="url-actions">
+                <button class="btn primary" data-copy-target="root-url">复制根地址</button>
+                <button class="btn" data-copy-target="root-manifest">复制 iOS manifest</button>
+              </div>
+            </div>
+            <div class="url-card">
+              <strong>iOS manifest</strong>
+              <a href="http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS" target="_blank" rel="noreferrer">http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS</a>
+              <div class="url-actions">
+                <button class="btn" data-copy-target="root-url">复制根地址</button>
+                <button class="btn primary" data-copy-target="root-manifest">复制 manifest</button>
+              </div>
+            </div>
+            <div class="note">
+              <strong>这是什么</strong>
+              这是 UTAGE 资源服务器，不是官网吗。iPhone 运行时会先来这里拿平台目录，再往下取具体 AssetBundle。
+            </div>
+          </div>
+          <template id="root-url">http://192.168.1.6:8000/theweepingswan/1.0.0</template>
+          <template id="root-manifest">http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS</template>
+        </section>
+
+        <section id="flow">
+          <div class="section-head">
+            <div>
+              <h2>推荐流程</h2>
+              <p>按这个顺序走，最稳。少走回头路，少把大包白打一遍。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="workflow">
+              <div class="flow-step">
+                <div class="num">1</div>
+                <h3>拉最新 git</h3>
+                <p>先同步主分支，避免拿旧配置去打包。</p>
+              </div>
+              <div class="flow-step">
+                <div class="num">2</div>
+                <h3>打 iOS 资源包</h3>
+                <p>生成 <code>BuildAssetBundles/iOS</code>。</p>
+              </div>
+              <div class="flow-step">
+                <div class="num">3</div>
+                <h3>部署到本地服务器</h3>
+                <p>复制到 <code>Deploy/AssetServer/theweepingswan/1.0.0/iOS</code>。</p>
+              </div>
+              <div class="flow-step">
+                <div class="num">4</div>
+                <h3>导出 Xcode</h3>
+                <p>在 <code>Builds/iOS/TheLamentingGeese-iOS</code> 里跑到真机。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="git">
+          <div class="section-head">
+            <div>
+              <h2>开始前先拉最新 git</h2>
+              <p>如果你在另一台机器上开工，这一步一定先做。仓库里有本地改动时，先看状态再拉。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <ol class="steps">
+              <li>进入仓库根目录。</li>
+              <li>先看当前分支和本地改动。</li>
+              <li>拉取远端 <code>main</code> 的最新提交。</li>
+              <li>如果有冲突，先处理干净，再继续 Unity。</li>
+            </ol>
+
+            <div class="code-wrap">
+              <div class="code-toolbar">
+                <span>git 同步命令</span>
+                <button class="copy" data-copy-target="git-sync">复制</button>
+              </div>
+              <pre id="git-sync"><code>git status --short --branch
+git fetch origin
+git pull --ff-only origin main
+git rev-parse HEAD</code></pre>
+            </div>
+
+            <div class="note" style="margin-top:12px">
+              <strong>提醒</strong>
+              如果本地已经有未提交改动，先 stash 再 pull，别让资源文件和配置文件夹在一起打架。
+            </div>
+          </div>
+        </section>
+
+        <section id="bundle">
+          <div class="section-head">
+            <div>
+              <h2>iOS AssetBundle 打包</h2>
+              <p>这一步只负责生成资源包，不会导出 Xcode。打完之后你会看到 <code>BuildAssetBundles/iOS/iOS</code> 和 <code>iOS.manifest</code>。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <ol class="steps">
+              <li>打开 Unity 项目，确认目标平台已经切到 iOS。</li>
+              <li>如果你在编辑器里要看远程资源，先切 <code>Codex/Asset Runtime Mode/Remote AssetBundles</code>，再把目标切到 <code>iOS</code>。</li>
+              <li>执行 <code>Codex/AssetBundles/Build iOS</code>。</li>
+              <li>等 <code>BuildAssetBundles/iOS</code> 完成，确认顶层 <code>iOS</code> 与 <code>iOS.manifest</code> 都存在。</li>
+            </ol>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>Unity 菜单</span>
+                <button class="copy" data-copy-target="unity-bundle">复制</button>
+              </div>
+              <pre id="unity-bundle"><code>Codex/Asset Runtime Mode/Remote AssetBundles
+Codex/Asset Runtime Mode/Remote Target/iOS
+Codex/AssetBundles/Build iOS</code></pre>
+            </div>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>产物检查</span>
+                <button class="copy" data-copy-target="bundle-check">复制</button>
+              </div>
+              <pre id="bundle-check"><code>ls -lh BuildAssetBundles/iOS/iOS BuildAssetBundles/iOS/iOS.manifest
+find BuildAssetBundles/iOS -maxdepth 2 -type d -print | sort</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="deploy">
+          <div class="section-head">
+            <div>
+              <h2>部署到本地静态服务器</h2>
+              <p>把打好的 iOS 资源包复制到本机 HTTP 目录。这个目录是给手机和 Xcode 运行时读取的。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <ol class="steps">
+              <li>先执行部署脚本，把 <code>BuildAssetBundles/iOS</code> 复制到 <code>Deploy/AssetServer/theweepingswan/1.0.0/iOS</code>。</li>
+              <li>确认 <code>Deploy/AssetServer/theweepingswan/1.0.0/iOS/iOS</code> 可见。</li>
+              <li>启动 HTTP 服务，推荐监听 <code>0.0.0.0:8000</code>，这样局域网里的其他设备也能访问。</li>
+              <li>如果你改了 Mac 的 IP，只改本地覆盖文件，不用重打资源包。</li>
+            </ol>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>部署命令</span>
+                <button class="copy" data-copy-target="deploy-cmd">复制</button>
+              </div>
+              <pre id="deploy-cmd"><code>Tools/Deployment/prepare-asset-bundle-deploy.sh --source-root BuildAssetBundles --platforms iOS --version 1.0.0</code></pre>
+            </div>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>启动本地服务器</span>
+                <button class="copy" data-copy-target="server-cmd">复制</button>
+              </div>
+              <pre id="server-cmd"><code>Tools/Deployment/start-local-asset-server.sh --port 8000 --bind 0.0.0.0 --foreground</code></pre>
+            </div>
+
+            <div class="note" style="margin-top:12px">
+              <strong>本机 IP 现在是</strong>
+              <code>192.168.1.6</code>。手机要访问的是这个 IP，不是 <code>127.0.0.1</code>。
+            </div>
+          </div>
+        </section>
+
+        <section id="xcode">
+          <div class="section-head">
+            <div>
+              <h2>Xcode 导出与真机安装</h2>
+              <p>这里会生成可打开的 Xcode 工程。目标工程目录是 <code>Builds/iOS/TheLamentingGeese-iOS</code>。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <ol class="steps">
+              <li>在 Unity 里执行 <code>Codex/Build iOS Xcode Project</code>。</li>
+              <li>导出后打开 <code>Builds/iOS/TheLamentingGeese-iOS/Unity-iPhone.xcodeproj</code>。</li>
+              <li>Xcode 里选择你的 iPhone 真机。</li>
+              <li>第一次装包如果提示证书不受信任，先去 iPhone 设置里信任开发者证书。</li>
+              <li>如果手机上是白屏或黑屏，先看控制台有没有资源服务器请求。</li>
+            </ol>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>Unity 菜单</span>
+                <button class="copy" data-copy-target="xcode-menu">复制</button>
+              </div>
+              <pre id="xcode-menu"><code>Codex/Build iOS Xcode Project</code></pre>
+            </div>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>命令行导出</span>
+                <button class="copy" data-copy-target="xcode-cli">复制</button>
+              </div>
+              <pre id="xcode-cli"><code>/Applications/Unity/Hub/Editor/2022.3.62f1/Unity.app/Contents/MacOS/Unity \
+  -quit -batchmode \
+  -projectPath /path/to/TheLamentingGeese \
+  -executeMethod CodexIOSBuild.BuildXcodeProject</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="phone">
+          <div class="section-head">
+            <div>
+              <h2>手机跑起来时应该看到什么</h2>
+              <p>这部分是判断“到底有没有真的启动”的关键。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <ol class="steps">
+              <li>App 启动后，控制台应该先看到 Unity 初始化信息，然后看到 <code>CODEX_ASSET_SERVER_BOOTSTRAP</code>。</li>
+              <li>接着应该能看到对 <code>http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS</code> 的请求。</li>
+              <li>如果资源很多，第一屏可能会有等待页或加载状态。</li>
+              <li>如果你什么都看不到，先别急着重打包，优先看证书、网络和服务器日志。</li>
+            </ol>
+
+            <div class="note" style="margin-top:12px">
+              <strong>最常见的误会</strong>
+              真机能装上，不代表它已经拿到资源。要看它有没有真正打到本机服务器。
+            </div>
+          </div>
+        </section>
+
+        <section id="trouble">
+          <div class="section-head">
+            <div>
+              <h2>看起来没反应时怎么查</h2>
+              <p>这是给“装上了但像没开”的情况准备的。按这个顺序查，一般能很快定位。</p>
+            </div>
+          </div>
+          <div class="section-body faq">
+            <details open>
+              <summary>1. 先确认证书是不是被信任</summary>
+              <p>如果 Xcode 日志里出现 “Developer App Certificate is not trusted”，去 iPhone 的设置里把开发者证书信任掉，再重新跑一次。</p>
+            </details>
+            <details>
+              <summary>2. 先确认服务器能从手机访问</summary>
+              <p>在手机 Safari 里打开这个地址：</p>
+              <p><a href="http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS" target="_blank" rel="noreferrer">http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS</a></p>
+              <p>能看到下载响应，说明局域网链路是通的。</p>
+            </details>
+            <details>
+              <summary>3. 如果 App 启动但没加载内容</summary>
+              <p>看 Xcode console 里有没有 <code>CODEX_ASSET_SERVER_BOOTSTRAP</code>、<code>CODEX_ASSET_BUNDLE_ALIAS_MAP</code>、<code>DownloadManifestAsync</code> 之类的日志。</p>
+              <ul class="mini-list">
+                <li>只有 bootstrap，没有 manifest 请求，多半是启动加载链路还没跑通。</li>
+                <li>连 bootstrap 都没有，说明更早的启动阶段有问题。</li>
+                <li>如果提示证书问题，先处理证书，不要先怀疑资源包。</li>
+              </ul>
+            </details>
+            <details>
+              <summary>4. 如果 Mac 的 IP 变了</summary>
+              <p>改这个文件即可：</p>
+              <p><code>Deploy/asset-server-url-iOS.txt</code></p>
+              <p>然后重新导出 Xcode 工程，不用重打 AssetBundle。</p>
+            </details>
+            <details>
+              <summary>5. 如果你只想编辑器里本地跑</summary>
+              <p>切到 <code>Codex/Asset Runtime Mode/Editor Local Assets</code>，然后编辑器里走本地资源，不走远程 HTTP。</p>
+            </details>
+          </div>
+        </section>
+
+        <section id="commands">
+          <div class="section-head">
+            <div>
+              <h2>常用命令速查</h2>
+              <p>这些命令可以直接复制到终端。</p>
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="code-wrap">
+              <div class="code-toolbar">
+                <span>状态检查</span>
+                <button class="copy" data-copy-target="status-cmd">复制</button>
+              </div>
+              <pre id="status-cmd"><code>git status --short --branch
+git rev-parse HEAD
+git ls-remote --heads origin main</code></pre>
+            </div>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>资源验证</span>
+                <button class="copy" data-copy-target="verify-cmd">复制</button>
+              </div>
+              <pre id="verify-cmd"><code>curl -I http://192.168.1.6:8000/theweepingswan/1.0.0
+curl -I http://192.168.1.6:8000/theweepingswan/1.0.0/iOS/iOS</code></pre>
+            </div>
+
+            <div class="code-wrap" style="margin-top:12px">
+              <div class="code-toolbar">
+                <span>真机控制台</span>
+                <button class="copy" data-copy-target="device-cmd">复制</button>
+              </div>
+              <pre id="device-cmd"><code>xcrun devicectl device --timeout 35 process launch \
+  --device 3D7AA5DE-146D-5D73-9591-4C6D88745A8E \
+  --terminate-existing \
+  --console com.zerocreations.thelamentinggeese</code></pre>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="toc">
+        <div class="toc-box">
+          <h3>快速导航</h3>
+          <ul class="toc-list">
+            <li><a href="#quick">当前地址</a></li>
+            <li><a href="#flow">推荐流程</a></li>
+            <li><a href="#git">拉最新 git</a></li>
+            <li><a href="#bundle">打 iOS 资源包</a></li>
+            <li><a href="#deploy">本地服务器</a></li>
+            <li><a href="#xcode">Xcode 导出</a></li>
+            <li><a href="#phone">手机应该看到什么</a></li>
+            <li><a href="#trouble">看起来没反应</a></li>
+            <li><a href="#commands">常用命令</a></li>
+          </ul>
+          <small>当前 Mac IP：<code>192.168.1.6</code></small>
+          <small>本地覆盖：<code>Deploy/asset-server-url-iOS.txt</code></small>
+        </div>
+
+        <div class="toc-box">
+          <h3>仓库地址</h3>
+          <p style="margin:0 0 10px">如果你要先同步代码，先从这里开始。</p>
+          <a href="https://github.com/XinyuLin-9zy/TheLamentingGeese" target="_blank" rel="noreferrer">https://github.com/XinyuLin-9zy/TheLamentingGeese</a>
+        </div>
+
+        <div class="toc-box">
+          <h3>输出目录</h3>
+          <ul class="mini-list">
+            <li><code>BuildAssetBundles/iOS</code></li>
+            <li><code>Deploy/AssetServer/theweepingswan/1.0.0/iOS</code></li>
+            <li><code>Builds/iOS/TheLamentingGeese-iOS</code></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <p class="footer">这页是本地使用说明，不是游戏本体页面。真正的运行入口还是 Unity 和 Xcode。</p>
+  </div>
+
+  <script>
+    function copyText(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(text);
+      }
+      return new Promise(function(resolve, reject) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+          var ok = document.execCommand('copy');
+          document.body.removeChild(ta);
+          ok ? resolve() : reject(new Error('copy failed'));
+        } catch (err) {
+          document.body.removeChild(ta);
+          reject(err);
+        }
+      });
+    }
+
+    function flash(button, text) {
+      var old = button.textContent;
+      button.textContent = text;
+      button.disabled = true;
+      window.setTimeout(function() {
+        button.textContent = old;
+        button.disabled = false;
+      }, 1000);
+    }
+
+    document.querySelectorAll('[data-copy-target]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var id = btn.getAttribute('data-copy-target');
+        var template = document.getElementById(id);
+        var text = template ? template.textContent.trim() : '';
+        copyText(text).then(function() {
+          flash(btn, '已复制');
+        }).catch(function() {
+          flash(btn, '复制失败');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
