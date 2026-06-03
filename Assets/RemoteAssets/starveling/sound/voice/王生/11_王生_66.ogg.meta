@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f3e96eda9c11bf34eae018b9597f41e9
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u738B\u751F/11_\u738B\u751F_66.asset"
+  assetBundleVariant: 

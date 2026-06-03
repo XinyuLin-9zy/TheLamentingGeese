@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ffe151eaf118f6d45be1d3ac57a3f4f9
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u4FA0/16_\u4FA0_08.asset"
+  assetBundleVariant: 

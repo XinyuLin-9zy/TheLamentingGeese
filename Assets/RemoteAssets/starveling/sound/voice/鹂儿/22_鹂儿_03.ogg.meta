@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 67067ce4d5c75be40b8eaee3b0b62c6e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u9E42\u513F/22_\u9E42\u513F_03.asset"
+  assetBundleVariant: 

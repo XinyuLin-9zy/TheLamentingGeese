@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a9bb2886cd43a774dbe69af4c29a7a92
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u826F/11\u5206\u652F_\u826F_05.asset"
+  assetBundleVariant: 

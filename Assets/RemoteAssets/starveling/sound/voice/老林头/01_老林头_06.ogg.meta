@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b28a1f4b60a48954ba2c6a61a7cefe2b
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u8001\u6797\u5934/01_\u8001\u6797\u5934_06.asset"
+  assetBundleVariant: 

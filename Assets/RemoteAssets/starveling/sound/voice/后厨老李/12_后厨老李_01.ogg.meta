@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e492b82b2d78f27428ee517a457a30a2
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u540E\u53A8\u8001\u674E/12_\u540E\u53A8\u8001\u674E_01.asset"
+  assetBundleVariant: 

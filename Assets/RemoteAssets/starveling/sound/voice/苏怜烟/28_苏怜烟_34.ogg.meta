@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c29556c6cacf52c49a5f258dbcc5115b
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u82CF\u601C\u70DF/28_\u82CF\u601C\u70DF_34.asset"
+  assetBundleVariant: 

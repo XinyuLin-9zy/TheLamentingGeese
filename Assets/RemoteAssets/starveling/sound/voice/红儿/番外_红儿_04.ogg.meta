@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 55f291be13b90df4f9c6d02612b2a010
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u7EA2\u513F/\u756A\u5916_\u7EA2\u513F_04.asset"
+  assetBundleVariant: 

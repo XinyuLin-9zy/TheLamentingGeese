@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 5847217f1ca1f5545be8f6a4b2ce0d45
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u9EC4\u886B\u8001\u592A\u5A46/04_\u9EC4\u886B\u8001\u592A\u5A46_01.asset"
+  assetBundleVariant: 

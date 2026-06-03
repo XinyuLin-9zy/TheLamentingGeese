@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d4550ec11173d0640a61e32f4448f322
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u7537\u4EBA\u4E19/06_\u7537\u4EBA\u4E19_01.asset"
+  assetBundleVariant: 

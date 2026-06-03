@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 5b7668fd867e37149afc0ec3352be5c9
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u65B9\u77E5\u5BA5/08_\u65B9\u77E5\u5BA5_05.asset"
+  assetBundleVariant: 

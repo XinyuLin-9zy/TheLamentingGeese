@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9d2cfef939fc0734ba4dca5d6ce53565
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u5FC3\u5170/17_\u5FC3\u5170_23.asset"
+  assetBundleVariant: 

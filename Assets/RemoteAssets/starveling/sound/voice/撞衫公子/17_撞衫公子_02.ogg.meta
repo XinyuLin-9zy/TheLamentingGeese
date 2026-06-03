@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a65d4a6f7fdd4be4c8e10765a99136ca
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u649E\u886B\u516C\u5B50/17_\u649E\u886B\u516C\u5B50_02.asset"
+  assetBundleVariant: 

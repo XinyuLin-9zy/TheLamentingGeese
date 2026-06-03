@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6c43fb6c607106e4aa37b9f2ad41f99e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u67F3\u5DF7\u59D1\u5A18\u4E59/11_\u67F3\u5DF7\u59D1\u5A18\u4E59_03.asset"
+  assetBundleVariant: 

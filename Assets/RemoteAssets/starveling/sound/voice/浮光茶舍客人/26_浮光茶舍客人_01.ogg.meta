@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: eefe2bf43628fef41ba057139fe3416e
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u6D6E\u5149\u8336\u820D\u5BA2\u4EBA/26_\u6D6E\u5149\u8336\u820D\u5BA2\u4EBA_01.asset"
+  assetBundleVariant: 

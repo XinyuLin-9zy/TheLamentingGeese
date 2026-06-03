@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 49b9cff4fb3f9154cb59d8a9fae7aa2c
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u7EA2\u7532\u9A6C\u5996/20_\u7EA2\u7532\u9A6C\u5996_01.asset"
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 655e35828698eee48aabc567d2b6d563
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u57CE\u6C11\u7532/01_\u57CE\u6C11\u7532_03.asset"
+  assetBundleVariant: 

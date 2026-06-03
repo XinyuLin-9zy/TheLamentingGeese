@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 84ba8fee2ead9c04eaece071edd5d586
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u5174\u5E73\u4F2F\u6B8B\u5175\u7532/32-1_\u5174\u5E73\u4F2F\u6B8B\u5175\u7532_07.asset"
+  assetBundleVariant: 

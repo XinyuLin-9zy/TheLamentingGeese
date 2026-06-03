@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8e7985f0819b6ac4da307b1df1905530
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/voice/\u5218\u5A46\u5B50/15_\u5218\u5A46\u5B50_01.asset"
+  assetBundleVariant: 
