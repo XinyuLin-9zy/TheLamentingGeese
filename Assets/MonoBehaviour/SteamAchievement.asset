@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62b8b5ce04d2d00103270a55c3cb18d, type: 3}
+  m_Name: SteamAchievement
+  m_EditorClassIdentifier:
+  version: 1
+  entries:
+  - steamId: NEW_ACHIEVEMENT_1_2
+    achievementIds:
+    - Achieve_death_3b
+  - steamId: NEW_ACHIEVEMENT_1_0
+    achievementIds:
+    - Achieve_end1a
+  - steamId: NEW_ACHIEVEMENT_1_3
+    achievementIds:
+    - Achieve_death_3a
+  - steamId: NEW_ACHIEVEMENT_1_4
+    achievementIds:
+    - Achieve_death_3c
+  - steamId: NEW_ACHIEVEMENT_1_5
+    achievementIds:
+    - Achieve_map_j3
+  - steamId: NEW_ACHIEVEMENT_1_6
+    achievementIds:
+    - Achieve_map_y4
+  - steamId: NEW_ACHIEVEMENT_1_7
+    achievementIds:
+    - Achieve_death_5b
+  - steamId: NEW_ACHIEVEMENT_1_8
+    achievementIds:
+    - Achieve_map_end_6_a
+    - Achieve_map_end_6_3b
+    - Achieve_map_end_15_a
+  - steamId: NEW_ACHIEVEMENT_1_9
+    achievementIds:
+    - Achieve_map_end_7_a
+    - Achieve_map_end_5_2b
+    - Achieve_map_end_4_2b
+  - steamId: NEW_ACHIEVEMENT_1_10
+    achievementIds:
+    - Achieve_map_y8
+  - steamId: NEW_ACHIEVEMENT_1_11
+    achievementIds:
+    - Achieve_map_end_7_a
+    - Achieve_map_end_19_1a
+  - steamId: NEW_ACHIEVEMENT_1_12
+    achievementIds:
+    - Achieve_death_11b
+  - steamId: NEW_ACHIEVEMENT_1_13
+    achievementIds:
+    - Achieve_map_y14
+  - steamId: NEW_ACHIEVEMENT_1_14
+    achievementIds:
+    - Achieve_map_j17
+  - steamId: NEW_ACHIEVEMENT_1_15
+    achievementIds:
+    - Achieve_map_commonEnd_1
+  - steamId: NEW_ACHIEVEMENT_1_16
+    achievementIds:
+    - Achieve_map_commonEnd_2
+  - steamId: NEW_ACHIEVEMENT_1_17
+    achievementIds:
+    - Achieve_map_commonEnd_3
+  - steamId: NEW_ACHIEVEMENT_1_18
+    achievementIds:
+    - Achieve_map_commonEnd_4
+  - steamId: NEW_ACHIEVEMENT_1_19
+    achievementIds:
+    - Achieve_map_commonEnd_5
+  - steamId: NEW_ACHIEVEMENT_1_20
+    achievementIds:
+    - Achieve_map_commonEnd_6
+  - steamId: NEW_ACHIEVEMENT_1_21
+    achievementIds:
+    - Achieve_map_commonEnd_7
+  - steamId: NEW_ACHIEVEMENT_1_22
+    achievementIds:
+    - Achieve_map_commonEnd_8
+  - steamId: NEW_ACHIEVEMENT_1_23
+    achievementIds:
+    - Achieve_map_commonEnd_9
+  - steamId: NEW_ACHIEVEMENT_1_24
+    achievementIds:
+    - Achieve_map_commonEnd_10
+  - steamId: NEW_ACHIEVEMENT_1_25
+    achievementIds:
+    - Achieve_NoDead
+  - steamId: NEW_ACHIEVEMENT_1_26
+    achievementIds:
+    - Achieve_map_other_1
+  - steamId: NEW_ACHIEVEMENT_1_27
+    achievementIds:
+    - Achieve_death_3a
+    - Achieve_death_3b
+    - Achieve_death_3c
+    - Achieve_map_end_4_2b
+    - Achieve_map_end_4_a
+    - Achieve_map_end_4_b
+    - Achieve_map_end_3_c
+    - Achieve_map_end_5_a
+    - Achieve_death_5b
+    - Achieve_map_end_5_2b
+    - Achieve_map_end_6_3b
+    - Achieve_map_end_7_a
+    - Achieve_map_end_15_a
+    - Achieve_map_end_6_a
+    - Achieve_death_11b
+    - Achieve_map_end_14_c
+    - Achieve_map_end_19_1a
+    - Achieve_map_commonEnd_1
+    - Achieve_map_commonEnd_2
+    - Achieve_map_commonEnd_3
+    - Achieve_map_commonEnd_4
+    - Achieve_map_commonEnd_5
+    - Achieve_map_commonEnd_6
+    - Achieve_map_commonEnd_7
+    - Achieve_map_commonEnd_8
+    - Achieve_map_commonEnd_9
+    - Achieve_map_commonEnd_10
+  - steamId: NEW_ACHIEVEMENT_2_0
+    achievementIds:
+    - Achieve_Money

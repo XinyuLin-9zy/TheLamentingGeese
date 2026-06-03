@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f183272568e6f94382e3b59c0de76cd, type: 3}
+  m_Name: Starveling.project
+  m_EditorClassIdentifier: 
+  chapterDataList: []
+  scenarios: {fileID: 11400000, guid: 2313ee41a7e99bf4db3e32ae5cac00b2, type: 2}
+  enableCommentOutOnImport: 1
+  scenarioFileReaderSettings: []
+  resourceDir: {fileID: 102900000, guid: 83b53fb9f32828d40a6d5da0de5ca606, type: 3}
+  checkExt: 0
+  customProjectSetting: {fileID: 11400000, guid: 95642b9ccedd1a642971e0a18f0bbadb, type: 2}
+  customImportSpriteFolders: []
+  customImportAudioFolders: []
+  quickImportType: 0
+  parseFormula: 0
+  parseNumreic: 0
+  checkWhiteSpace: 1
+  checkWaitType: 0
+  checkWhiteSpaceEndOfCell: 1
+  checkTextCount: 1
+  checkTextCountAllLanguage: 0
+  autoImportType: 1
+  checkBlankRowCountOnImport: 1000
+  checkColumnCountOnImport: 500

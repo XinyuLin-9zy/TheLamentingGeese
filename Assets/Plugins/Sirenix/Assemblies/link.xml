@@ -1,0 +1,3 @@
+<linker>
+       <assembly fullname="Sirenix.OdinInspector.Attributes" preserve="all"/>
+</linker>

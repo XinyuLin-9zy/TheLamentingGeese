@@ -1,0 +1,279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4590f3b20f025bbb8a700938a11125, type: 3}
+  m_Name: TitleAnimationScaleData
+  m_EditorClassIdentifier:
+  entries:
+  - titleName: chapter_title_L0
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.4
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.7
+  - titleName: chapter_title_L1
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.4
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.5
+  - titleName: chapter_title_L2
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.5
+  - titleName: chapter_title_L3
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.3
+      - languageType: 3
+        rate: 1.4
+  - titleName: chapter_title_L4
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1
+      - languageType: 2
+        rate: 1.3
+      - languageType: 3
+        rate: 1.2
+  - titleName: chapter_title_L5
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.1
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_L6
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.1
+      - languageType: 3
+        rate: 1
+  - titleName: chapter_title_L7
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.5
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_L8
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1
+      - languageType: 2
+        rate: 1.1
+      - languageType: 3
+        rate: 1.2
+  - titleName: chapter_title_L9
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.5
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_L10
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.3
+      - languageType: 3
+        rate: 1.2
+  - titleName: chapter_title_L11
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.15
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.6
+  - titleName: chapter_title_L12
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.15
+      - languageType: 2
+        rate: 1.2
+      - languageType: 3
+        rate: 1.15
+  - titleName: chapter_title_L13
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1
+      - languageType: 2
+        rate: 1.1
+      - languageType: 3
+        rate: 1.2
+  - titleName: chapter_title_L14
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.15
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.25
+  - titleName: chapter_title_L15
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.15
+      - languageType: 2
+        rate: 1.5
+      - languageType: 3
+        rate: 1.35
+  - titleName: chapter_title_S0
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.4
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_S1
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1
+      - languageType: 2
+        rate: 1
+      - languageType: 3
+        rate: 1.1
+  - titleName: chapter_title_S2
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1
+      - languageType: 2
+        rate: 1.3
+      - languageType: 3
+        rate: 1.2
+  - titleName: chapter_title_S3
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.8
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_S4
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.6
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_S5
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.32
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_S6
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.05
+      - languageType: 3
+        rate: 1.45
+  - titleName: chapter_title_S7
+    data:
+      LanguageTitleRateList:
+      - languageType: 0
+        rate: 1
+      - languageType: 1
+        rate: 1.2
+      - languageType: 2
+        rate: 1.05
+      - languageType: 3
+        rate: 1.45
