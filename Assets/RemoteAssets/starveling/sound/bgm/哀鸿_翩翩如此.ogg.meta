@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 839c22e811ca0154b809d8e9beef3a27
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 0
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 0
+  userData: 
+  assetBundleName: "sound/bgm/\u54C0\u9E3F_\u7FE9\u7FE9\u5982\u6B64.asset"
+  assetBundleVariant: 
