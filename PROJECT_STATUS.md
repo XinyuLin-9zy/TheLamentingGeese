@@ -7,7 +7,7 @@
 - 游戏：《哀鸿》(The Weeping Swan / Starveling)
 - 引擎：UTAGE4 v4.2.7 + Unity 2022.3.62f1/f2c1
 - 重建来源：AssetRipper 1.3.14 + IL2CPP 反编译资源
-- Unity 项目：`E:\Game\The Weeping Swan Ten Days of the Citys Fall\_ReconstructedProject\FinalProject`
+- Unity 项目：本仓库根目录。
 - Unity MCP：`POST http://127.0.0.1:7891/api/...`
 
 ## 当前状态
@@ -102,7 +102,7 @@ Invoke-RestMethod -Method Post -Uri 'http://127.0.0.1:7891/api/editor/play-mode'
 ## 2026-05-20 UI sample alignment safe-pause checkpoint
 
 - Safe pause state: Unity Play Mode was stopped before this checkpoint; MCP state was `isPlaying=false`, `isCompiling=false`, active scene `level0`.
-- Do not resume oversized old Codex session `019e43f3-db30-71d3-995e-de7d95ea8faf`. It previously hit compact 429/524.
+- Do not resume the oversized old Codex session from that checkpoint. It previously hit compact 429/524.
 - Do not revert the existing dirty `Assets/Scenes/level0.unity`; it is intentionally preserved.
 - Title screen progress verified against `sample/标题界面.png`: title Spine now cover-fits the screen, Logo and five bottom menu button sprites are visible, language image adapters refresh, and runtime screenshot was saved at `Assets/Screenshots/codex_title_current_verify.png`.
 - Title `记忆回想/记忆回响` behavior was changed to open the Load/SaveLoad UI through `UtageUguiTitle.OnTapArchive()` -> `load.OpenLoad(this)`. Verification screenshot: `Assets/Screenshots/codex_archive_opens_load_verify.png`.
@@ -115,7 +115,7 @@ Invoke-RestMethod -Method Post -Uri 'http://127.0.0.1:7891/api/editor/play-mode'
 ## 2026-05-21 Chapter title layer safe-pause checkpoint
 
 - Safe pause state: Unity Play Mode was stopped before this checkpoint; MCP state was `isPlaying=false`, `isCompiling=false`, active scene `level0`, `sceneDirty=false`.
-- Do not resume oversized old Codex session `019e43f3-db30-71d3-995e-de7d95ea8faf`. The parallel investigation agent `019e4875-e339-7190-9336-b50185ed7d9f` was still running with no result and was closed.
+- Do not resume the oversized old Codex session from that checkpoint. The parallel investigation agent was still running with no result and was closed.
 - Do not revert the existing dirty `Assets/Scenes/level0.unity`; it remains intentionally preserved.
 - Latest code fix: `Assets/Scripts/Assembly-CSharp/UI/UI_TitleAnimation.cs` now moves the root visual layer for each chapter-title element to the front. This matters because `TitleBG` is under the root child `Mask`; moving only `TitleBG` left the root `BG` layer able to cover the white brush/title band during the particle title sequence.
 - Validation after the latest layer-order patch:
@@ -127,7 +127,7 @@ Invoke-RestMethod -Method Post -Uri 'http://127.0.0.1:7891/api/editor/play-mode'
 ## 2026-05-21 Chapter title readability final pass
 
 - Safe pause state after this pass: Unity Play Mode was stopped; MCP state was `isPlaying=false`, `isCompiling=false`, active scene `level0`, `sceneDirty=false`.
-- Do not resume oversized old Codex session `019e43f3-db30-71d3-995e-de7d95ea8faf`; this pass continued from the handoff summary and parallel agent result only.
+- Do not resume the oversized old Codex session from that checkpoint; this pass continued from the handoff summary and parallel agent result only.
 - Do not revert the existing dirty `Assets/Scenes/level0.unity`; it remains intentionally preserved.
 - Fixed the chapter title text being unreadable throughout the particle/title sequence:
   - `Assets/Shader/Shader Graphs_TitleDisappear.shader`: corrected the dissolve alpha direction so `_Strength=0` keeps the title visible and increasing `_Strength` dissolves it away.
@@ -167,7 +167,7 @@ Invoke-RestMethod -Method Post -Uri 'http://127.0.0.1:7891/api/editor/play-mode'
 
 ## 2026-05-21 403 resume UI follow-up
 
-- Migrated interrupted Codex session `019e457a-8aa0-71b1-bd1a-a80adce13684` from `C:\Users\Administrator\.codex\sessions\2026\05\20\rollout-2026-05-20T21-01-59-019e457a-8aa0-71b1-bd1a-a80adce13684.jsonl`; that run stopped because child-agent API calls returned HTTP 403 from `api.asxs.top/v1/responses`.
+- Migrated an interrupted Codex session from a local Codex session log; that run stopped because child-agent API calls returned HTTP 403 from an internal API endpoint.
 - Continued the interrupted UI fixes:
   - Config UI: hides null-texture `RawImage` / `UguiNovelText` white blocks, darkens config controls, keeps language and voice-language values visible, and collapses the default-active resolution template in `IsNotFullScreen`.
   - Save/Load UI: empty save slots now use transparent captures and hide the screenshot placeholder frame/background while preserving the no-data label.

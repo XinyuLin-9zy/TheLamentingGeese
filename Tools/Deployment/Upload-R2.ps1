@@ -27,7 +27,7 @@ foreach ($file in $files) {
     $relative = $file.FullName.Substring($rootFull.Length).TrimStart("\", "/") -replace "\\", "/"
     $key = if ([string]::IsNullOrWhiteSpace($Prefix)) { $relative } else { (($Prefix.TrimEnd("/") + "/" + $relative) -replace "\\", "/") }
     Write-Host "Uploading $relative -> r2://$Bucket/$key"
-    & $wrangler.Source r2 object put "$Bucket/$key" --file "$($file.FullName)"
+    & $wrangler.Source r2 object put "$Bucket/$key" --file "$($file.FullName)" --remote
     if ($LASTEXITCODE -ne 0) {
         throw "wrangler failed while uploading $relative"
     }

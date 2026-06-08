@@ -76,10 +76,10 @@ theweepingswan/
 
 2. 创建 R2 bucket。
 
-   推荐 bucket 名：
+   示例 bucket 名：
 
    ```text
-   theweepingswan-assets
+   YOUR_BUCKET_NAME
    ```
 
 3. 开启公开访问。
@@ -109,8 +109,8 @@ theweepingswan/
    上传单个平台目录：
 
    ```powershell
-   wrangler r2 object put theweepingswan-assets/theweepingswan/1.0.0/Android/Android --file .\BuildAssetBundles\Android\Android
-   wrangler r2 object put theweepingswan-assets/theweepingswan/1.0.0/Android/core.unity3d --file .\BuildAssetBundles\Android\core.unity3d
+   wrangler r2 object put YOUR_BUCKET_NAME/theweepingswan/1.0.0/Android/Android --file .\BuildAssetBundles\Android\Android --remote
+   wrangler r2 object put YOUR_BUCKET_NAME/theweepingswan/1.0.0/Android/core.unity3d --file .\BuildAssetBundles\Android\core.unity3d --remote
    ```
 
    文件多时可以用脚本循环上传，但必须保持对象 key 和本地目录结构一致。
@@ -119,7 +119,7 @@ theweepingswan/
 
    ```powershell
    .\Tools\Deployment\Prepare-AssetBundleDeploy.ps1 -SourceRoot .\BuildAssetBundles -Version 1.0.0 -Clean
-   .\Tools\Deployment\Upload-R2.ps1 -Bucket theweepingswan-assets -LocalRoot .\Deploy\AssetServer
+   .\Tools\Deployment\Upload-R2.ps1 -Bucket YOUR_BUCKET_NAME -LocalRoot .\Deploy\AssetServer
    ```
 
    其中 `BuildAssetBundles` 是 Unity/UTAGE 输出 AssetBundle 的目录，里面应包含：

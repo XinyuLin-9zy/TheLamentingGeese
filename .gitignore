@@ -176,6 +176,7 @@ x86/
 
 # Local analysis and generated deployment output
 /.tools/
+/.wrangler/
 /MCPShots/
 /_external/
 /BuildAssetBundles/

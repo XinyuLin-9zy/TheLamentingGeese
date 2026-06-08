@@ -20,7 +20,7 @@
 
 文件：
 
-`E:\Game\The Weeping Swan Ten Days of the Citys Fall\_ReconstructedProject\FinalProject\Assets\MonoBehaviour\Starveling.book.asset`
+`Assets\MonoBehaviour\Starveling.book.asset`
 
 已知相关行附近：
 

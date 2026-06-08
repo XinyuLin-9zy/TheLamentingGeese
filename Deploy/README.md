@@ -34,16 +34,16 @@ Then set UTAGE `ServerUrl` to:
 http://<computer-lan-ip>:8000/theweepingswan/1.0.0
 ```
 
-For Cloudflare R2 upload after login:
+For Cloudflare R2 upload after login. Replace `YOUR_BUCKET_NAME` with your own bucket:
 
 ```powershell
 wrangler login
-.\Tools\Deployment\Upload-R2.ps1 -Bucket theweepingswan-assets -LocalRoot .\Deploy\AssetServer
+.\Tools\Deployment\Upload-R2.ps1 -Bucket YOUR_BUCKET_NAME -LocalRoot .\Deploy\AssetServer
 ```
 
 On macOS/Linux:
 
 ```bash
 wrangler login
-Tools/Deployment/upload-r2.sh --bucket theweepingswan-assets --local-root Deploy/AssetServer
+Tools/Deployment/upload-r2.sh --bucket YOUR_BUCKET_NAME --local-root Deploy/AssetServer
 ```

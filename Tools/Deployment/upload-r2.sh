@@ -67,7 +67,7 @@ while IFS= read -r -d '' file; do
         key="${prefix%/}/$relative"
     fi
     echo "Uploading $relative -> r2://$bucket/$key"
-    wrangler r2 object put "$bucket/$key" --file "$file"
+    wrangler r2 object put "$bucket/$key" --file "$file" --remote
     count=$((count + 1))
 done < <(find "$root_full" -type f -print0)
 
