@@ -1,4 +1,4 @@
-# The Lamenting Geese
+# The Lamenting Geese / The Weeping Swan
 
 > Unity + UTAGE visual novel reconstruction project for **The Weeping Swan / 哀鸿**.
 
